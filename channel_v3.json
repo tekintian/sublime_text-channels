@@ -678,21 +678,21 @@
         "releases": [
           {
             "platforms": [
-              "windows"
-            ],
-            "sublime_text": "4000 - 4204",
-            "version": "3.0.0",
-            "url": "https://codexns.io/packages/sftp/3.0.0-st4-py38-win/SFTP.sublime-package",
-            "date": "2026-09-24 07:30:00"
-          },
-          {
-            "platforms": [
               "osx",
               "linux"
             ],
             "sublime_text": "4000 - 4204",
             "version": "3.0.0",
             "url": "https://codexns.io/packages/sftp/3.0.0-st4-py38-posix/SFTP.sublime-package",
+            "date": "2026-09-24 07:30:00"
+          },
+          {
+            "platforms": [
+              "windows"
+            ],
+            "sublime_text": "4000 - 4204",
+            "version": "3.0.0",
+            "url": "https://codexns.io/packages/sftp/3.0.0-st4-py38-win/SFTP.sublime-package",
             "date": "2026-09-24 07:30:00"
           },
           {
@@ -735,21 +735,21 @@
           },
           {
             "platforms": [
+              "windows"
+            ],
+            "sublime_text": "<3000",
+            "version": "1.16.6",
+            "url": "https://codexns.io/packages/sftp/1.16.6-st2-win/SFTP.sublime-package",
+            "date": "2023-01-14 11:20:00"
+          },
+          {
+            "platforms": [
               "osx",
               "linux"
             ],
             "sublime_text": "<3000",
             "version": "1.16.6",
             "url": "https://codexns.io/packages/sftp/1.16.6-st2-posix/SFTP.sublime-package",
-            "date": "2023-01-14 11:20:00"
-          },
-          {
-            "platforms": [
-              "windows"
-            ],
-            "sublime_text": "<3000",
-            "version": "1.16.6",
-            "url": "https://codexns.io/packages/sftp/1.16.6-st2-win/SFTP.sublime-package",
             "date": "2023-01-14 11:20:00"
           }
         ]
@@ -801,11 +801,12 @@
           },
           {
             "platforms": [
-              "windows"
+              "osx",
+              "linux"
             ],
             "sublime_text": "3000 - 3999",
             "version": "1.9.4",
-            "url": "https://codexns.io/packages/svn/1.9.4-st3-win/SVN.sublime-package",
+            "url": "https://codexns.io/packages/svn/1.9.4-st3-posix/SVN.sublime-package",
             "date": "2022-09-19 08:45:00"
           },
           {
@@ -820,12 +821,11 @@
           },
           {
             "platforms": [
-              "osx",
-              "linux"
+              "windows"
             ],
             "sublime_text": "3000 - 3999",
             "version": "1.9.4",
-            "url": "https://codexns.io/packages/svn/1.9.4-st3-posix/SVN.sublime-package",
+            "url": "https://codexns.io/packages/svn/1.9.4-st3-win/SVN.sublime-package",
             "date": "2022-09-19 08:45:00"
           }
         ]
@@ -1810,15 +1810,6 @@
         "releases": [
           {
             "platforms": [
-              "osx"
-            ],
-            "sublime_text": "*",
-            "version": "0.2.2",
-            "url": "https://codeload.github.com/airtoxin/Achievement/zip/osx-0.2.2",
-            "date": "2015-03-12 13:21:08"
-          },
-          {
-            "platforms": [
               "windows"
             ],
             "sublime_text": "*",
@@ -1833,6 +1824,15 @@
             "sublime_text": "*",
             "version": "0.2.2",
             "url": "https://codeload.github.com/airtoxin/Achievement/zip/linux-0.2.2",
+            "date": "2015-03-12 13:21:08"
+          },
+          {
+            "platforms": [
+              "osx"
+            ],
+            "sublime_text": "*",
+            "version": "0.2.2",
+            "url": "https://codeload.github.com/airtoxin/Achievement/zip/osx-0.2.2",
             "date": "2015-03-12 13:21:08"
           }
         ]
@@ -1944,9 +1944,9 @@
               "*"
             ],
             "sublime_text": ">=4095",
-            "version": "1.9.8",
-            "url": "https://codeload.github.com/debjan/sublime-acp/zip/1.9.8",
-            "date": "2026-11-06 17:37:01"
+            "version": "1.9.9",
+            "url": "https://codeload.github.com/debjan/sublime-acp/zip/1.9.9",
+            "date": "2026-11-07 16:58:18"
           },
           {
             "platforms": [
@@ -3577,9 +3577,9 @@
               "*"
             ],
             "sublime_text": ">=4095",
-            "version": "3.0.8",
-            "url": "https://codeload.github.com/chenmoulaile/cph-by-chenkx/zip/v3.0.8",
-            "date": "2026-11-06 17:33:48"
+            "version": "3.0.9",
+            "url": "https://codeload.github.com/chenmoulaile/cph-by-chenkx/zip/v3.0.9",
+            "date": "2026-11-07 12:19:51"
           },
           {
             "platforms": [
@@ -7736,18 +7736,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3143 - 3999",
+            "sublime_text": ">=4000",
             "version": "1.1.1",
-            "url": "https://codeload.github.com/Fansaly/ASL-Syntax-Highlight/zip/st3-1.1.1",
+            "url": "https://codeload.github.com/Fansaly/ASL-Syntax-Highlight/zip/1.1.1",
             "date": "2026-10-24 09:47:11"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": "3143 - 3999",
             "version": "1.1.1",
-            "url": "https://codeload.github.com/Fansaly/ASL-Syntax-Highlight/zip/1.1.1",
+            "url": "https://codeload.github.com/Fansaly/ASL-Syntax-Highlight/zip/st3-1.1.1",
             "date": "2026-10-24 09:47:11"
           },
           {
@@ -8035,19 +8035,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4134",
+            "sublime_text": "4126 - 4133",
             "version": "2.10.3",
-            "url": "https://codeload.github.com/SublimeText/Astro/zip/4134-2.10.3",
-            "date": "2026-02-01 13:47:19"
+            "url": "https://codeload.github.com/SublimeText/Astro/zip/4126-2.10.3",
+            "date": "2025-02-15 14:23:50"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "4126 - 4133",
+            "sublime_text": ">=4134",
             "version": "2.10.3",
-            "url": "https://codeload.github.com/SublimeText/Astro/zip/4126-2.10.3",
-            "date": "2025-02-15 14:23:50"
+            "url": "https://codeload.github.com/SublimeText/Astro/zip/4134-2.10.3",
+            "date": "2026-02-01 13:47:19"
           },
           {
             "platforms": [
@@ -8071,19 +8071,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "4126 - 4133",
+            "sublime_text": ">=4134",
             "version": "2.8.0",
-            "url": "https://codeload.github.com/SublimeText/Astro/zip/4126-2.8.0",
-            "date": "2024-03-12 18:21:53"
+            "url": "https://codeload.github.com/SublimeText/Astro/zip/4134-2.8.0",
+            "date": "2024-03-12 18:23:49"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4134",
+            "sublime_text": "4126 - 4133",
             "version": "2.8.0",
-            "url": "https://codeload.github.com/SublimeText/Astro/zip/4134-2.8.0",
-            "date": "2024-03-12 18:23:49"
+            "url": "https://codeload.github.com/SublimeText/Astro/zip/4126-2.8.0",
+            "date": "2024-03-12 18:21:53"
           },
           {
             "platforms": [
@@ -9643,18 +9643,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
+            "sublime_text": ">=3000",
             "version": "1.3.6",
-            "url": "https://codeload.github.com/wistful/SublimeAutoPEP8/zip/st2-1.3.6",
+            "url": "https://codeload.github.com/wistful/SublimeAutoPEP8/zip/v1.3.6",
             "date": "2017-04-14 05:49:30"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3000",
+            "sublime_text": "<3000",
             "version": "1.3.6",
-            "url": "https://codeload.github.com/wistful/SublimeAutoPEP8/zip/v1.3.6",
+            "url": "https://codeload.github.com/wistful/SublimeAutoPEP8/zip/st2-1.3.6",
             "date": "2017-04-14 05:49:30"
           },
           {
@@ -9697,15 +9697,6 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
-            "version": "0.9.3",
-            "url": "https://codeload.github.com/wistful/SublimeAutoPEP8/zip/st2-0.9.3",
-            "date": "2013-03-26 23:41:19"
-          },
-          {
-            "platforms": [
-              "*"
-            ],
             "sublime_text": ">=3000",
             "version": "0.9.3",
             "url": "https://codeload.github.com/wistful/SublimeAutoPEP8/zip/v0.9.3",
@@ -9716,9 +9707,9 @@
               "*"
             ],
             "sublime_text": "<3000",
-            "version": "0.7.2",
-            "url": "https://codeload.github.com/wistful/SublimeAutoPEP8/zip/st2-0.7.2",
-            "date": "2012-11-17 19:12:07"
+            "version": "0.9.3",
+            "url": "https://codeload.github.com/wistful/SublimeAutoPEP8/zip/st2-0.9.3",
+            "date": "2013-03-26 23:41:19"
           },
           {
             "platforms": [
@@ -9727,6 +9718,15 @@
             "sublime_text": ">=3000",
             "version": "0.7.2",
             "url": "https://codeload.github.com/wistful/SublimeAutoPEP8/zip/v0.7.2",
+            "date": "2012-11-17 19:12:07"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": "<3000",
+            "version": "0.7.2",
+            "url": "https://codeload.github.com/wistful/SublimeAutoPEP8/zip/st2-0.7.2",
             "date": "2012-11-17 19:12:07"
           },
           {
@@ -15655,19 +15655,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
+            "sublime_text": ">=3103",
             "version": "0.9.1",
-            "url": "https://codeload.github.com/idleberg/sublime-bridlensis/zip/st2-0.9.1",
-            "date": "2017-07-02 00:15:02"
+            "url": "https://codeload.github.com/idleberg/sublime-bridlensis/zip/st3-0.9.1",
+            "date": "2017-07-02 00:14:28"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3103",
+            "sublime_text": "<3000",
             "version": "0.9.1",
-            "url": "https://codeload.github.com/idleberg/sublime-bridlensis/zip/st3-0.9.1",
-            "date": "2017-07-02 00:14:28"
+            "url": "https://codeload.github.com/idleberg/sublime-bridlensis/zip/st2-0.9.1",
+            "date": "2017-07-02 00:15:02"
           },
           {
             "platforms": [
@@ -18760,18 +18760,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "4084 - 4212",
+            "sublime_text": ">=4213",
             "version": "0.31.1",
-            "url": "https://codeload.github.com/jcberquist/sublimetext-cfml/zip/st4084-v0.31.1",
+            "url": "https://codeload.github.com/jcberquist/sublimetext-cfml/zip/v0.31.1",
             "date": "2025-02-27 23:09:19"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4213",
+            "sublime_text": "4084 - 4212",
             "version": "0.31.1",
-            "url": "https://codeload.github.com/jcberquist/sublimetext-cfml/zip/v0.31.1",
+            "url": "https://codeload.github.com/jcberquist/sublimetext-cfml/zip/st4084-v0.31.1",
             "date": "2025-02-27 23:09:19"
           },
           {
@@ -23786,18 +23786,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3000",
+            "sublime_text": "<3000",
             "version": "3.8.0",
-            "url": "https://codeload.github.com/akalongman/sublimetext-codeformatter/zip/3.8.0",
+            "url": "https://codeload.github.com/akalongman/sublimetext-codeformatter/zip/st2-3.8.0",
             "date": "2017-10-30 13:04:29"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
+            "sublime_text": ">=3000",
             "version": "3.8.0",
-            "url": "https://codeload.github.com/akalongman/sublimetext-codeformatter/zip/st2-3.8.0",
+            "url": "https://codeload.github.com/akalongman/sublimetext-codeformatter/zip/3.8.0",
             "date": "2017-10-30 13:04:29"
           },
           {
@@ -25051,18 +25051,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4143",
+            "sublime_text": "3143 - 4142",
             "version": "2.3.0",
-            "url": "https://codeload.github.com/SublimeText/CoffeeScript/zip/4143-2.3.0",
+            "url": "https://codeload.github.com/SublimeText/CoffeeScript/zip/3000-2.3.0",
             "date": "2024-08-25 13:53:06"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "3143 - 4142",
+            "sublime_text": ">=4143",
             "version": "2.3.0",
-            "url": "https://codeload.github.com/SublimeText/CoffeeScript/zip/3000-2.3.0",
+            "url": "https://codeload.github.com/SublimeText/CoffeeScript/zip/4143-2.3.0",
             "date": "2024-08-25 13:53:06"
           },
           {
@@ -25684,18 +25684,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3170 - 3999",
+            "sublime_text": "4000 - 4200",
             "version": "6.3.2",
-            "url": "https://codeload.github.com/facelessuser/ColorHelper/zip/st3a-6.3.2",
+            "url": "https://codeload.github.com/facelessuser/ColorHelper/zip/st3-6.3.2",
             "date": "2023-12-06 22:00:11"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "4000 - 4200",
+            "sublime_text": "3170 - 3999",
             "version": "6.3.2",
-            "url": "https://codeload.github.com/facelessuser/ColorHelper/zip/st3-6.3.2",
+            "url": "https://codeload.github.com/facelessuser/ColorHelper/zip/st3a-6.3.2",
             "date": "2023-12-06 22:00:11"
           },
           {
@@ -31071,15 +31071,6 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4086",
-            "version": "1.3.0",
-            "url": "https://codeload.github.com/michaelblyons/SublimeSyntax-Crontab/zip/version/st4/1.3.0",
-            "date": "2025-04-11 17:37:52"
-          },
-          {
-            "platforms": [
-              "*"
-            ],
             "sublime_text": "3156 - 4085",
             "version": "1.3.0",
             "url": "https://codeload.github.com/michaelblyons/SublimeSyntax-Crontab/zip/version/st3/1.3.0",
@@ -31089,10 +31080,10 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3156 - 4085",
-            "version": "1.2.2",
-            "url": "https://codeload.github.com/michaelblyons/SublimeSyntax-Crontab/zip/version/st3/1.2.2",
-            "date": "2025-02-27 18:04:43"
+            "sublime_text": ">=4086",
+            "version": "1.3.0",
+            "url": "https://codeload.github.com/michaelblyons/SublimeSyntax-Crontab/zip/version/st4/1.3.0",
+            "date": "2025-04-11 17:37:52"
           },
           {
             "platforms": [
@@ -31107,10 +31098,10 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
-            "version": "1.0.0",
-            "url": "https://codeload.github.com/michaelblyons/SublimeSyntax-Crontab/zip/version/st2/1.0.0",
-            "date": "2019-11-30 20:46:32"
+            "sublime_text": "3156 - 4085",
+            "version": "1.2.2",
+            "url": "https://codeload.github.com/michaelblyons/SublimeSyntax-Crontab/zip/version/st3/1.2.2",
+            "date": "2025-02-27 18:04:43"
           },
           {
             "platforms": [
@@ -31120,6 +31111,15 @@
             "version": "1.0.0",
             "url": "https://codeload.github.com/michaelblyons/SublimeSyntax-Crontab/zip/version/st3.0/1.0.0",
             "date": "2019-04-14 04:14:40"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": "<3000",
+            "version": "1.0.0",
+            "url": "https://codeload.github.com/michaelblyons/SublimeSyntax-Crontab/zip/version/st2/1.0.0",
+            "date": "2019-11-30 20:46:32"
           },
           {
             "platforms": [
@@ -40512,6 +40512,15 @@
               "*"
             ],
             "sublime_text": "*",
+            "version": "3.1.0",
+            "url": "https://codeload.github.com/educbraga/EasyCommit/zip/3.1.0",
+            "date": "2026-11-07 01:15:39"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": "*",
             "version": "3.0.8",
             "url": "https://codeload.github.com/educbraga/EasyCommit/zip/3.0.8",
             "date": "2024-03-31 02:31:40"
@@ -49558,19 +49567,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3000",
+            "sublime_text": "<3000",
             "version": "2.0.3",
-            "url": "https://codeload.github.com/davidpeckham/sublime-filterlines/zip/st3-2.0.3",
-            "date": "2014-12-28 18:08:06"
+            "url": "https://codeload.github.com/davidpeckham/sublime-filterlines/zip/st2-2.0.3",
+            "date": "2014-12-28 18:05:47"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
+            "sublime_text": ">=3000",
             "version": "2.0.3",
-            "url": "https://codeload.github.com/davidpeckham/sublime-filterlines/zip/st2-2.0.3",
-            "date": "2014-12-28 18:05:47"
+            "url": "https://codeload.github.com/davidpeckham/sublime-filterlines/zip/st3-2.0.3",
+            "date": "2014-12-28 18:08:06"
           }
         ]
       },
@@ -50218,18 +50227,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": "3000 - 3999",
             "version": "3.4.2",
-            "url": "https://codeload.github.com/Phidica/sublime-fish/zip/st4-3.4.2",
+            "url": "https://codeload.github.com/Phidica/sublime-fish/zip/st3-3.4.2",
             "date": "2025-01-01 16:13:32"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "3000 - 3999",
+            "sublime_text": ">=4000",
             "version": "3.4.2",
-            "url": "https://codeload.github.com/Phidica/sublime-fish/zip/st3-3.4.2",
+            "url": "https://codeload.github.com/Phidica/sublime-fish/zip/st4-3.4.2",
             "date": "2025-01-01 16:13:32"
           },
           {
@@ -51492,19 +51501,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3000 - 3999",
+            "sublime_text": ">=4000",
             "version": "2.0.0",
-            "url": "https://codeload.github.com/SublimeText/FolderAliaser/zip/st3-2.0.0",
-            "date": "2024-01-01 14:31:20"
+            "url": "https://codeload.github.com/SublimeText/FolderAliaser/zip/2.0.0",
+            "date": "2024-01-01 18:46:59"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": "3000 - 3999",
             "version": "2.0.0",
-            "url": "https://codeload.github.com/SublimeText/FolderAliaser/zip/2.0.0",
-            "date": "2024-01-01 18:46:59"
+            "url": "https://codeload.github.com/SublimeText/FolderAliaser/zip/st3-2.0.0",
+            "date": "2024-01-01 14:31:20"
           },
           {
             "platforms": [
@@ -55231,18 +55240,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3176",
+            "sublime_text": ">=3176",
             "version": "1.10.3",
-            "url": "https://codeload.github.com/jisaacks/GitGutter/zip/st2-1.10.3",
+            "url": "https://codeload.github.com/jisaacks/GitGutter/zip/1.10.3",
             "date": "2019-07-04 16:32:14"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3176",
+            "sublime_text": "<3176",
             "version": "1.10.3",
-            "url": "https://codeload.github.com/jisaacks/GitGutter/zip/1.10.3",
+            "url": "https://codeload.github.com/jisaacks/GitGutter/zip/st2-1.10.3",
             "date": "2019-07-04 16:32:14"
           },
           {
@@ -55798,15 +55807,6 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3179 - 4069",
-            "version": "1.7.0",
-            "url": "https://codeload.github.com/mauroreisvieira/github-sublime-theme/zip/3179-1.7.0",
-            "date": "2020-12-15 12:05:48"
-          },
-          {
-            "platforms": [
-              "*"
-            ],
             "sublime_text": ">=4070",
             "version": "1.7.0",
             "url": "https://codeload.github.com/mauroreisvieira/github-sublime-theme/zip/4070-1.7.0",
@@ -55817,9 +55817,9 @@
               "*"
             ],
             "sublime_text": "3179 - 4069",
-            "version": "1.6.0",
-            "url": "https://codeload.github.com/mauroreisvieira/github-sublime-theme/zip/3179-1.6.0",
-            "date": "2020-11-26 15:56:26"
+            "version": "1.7.0",
+            "url": "https://codeload.github.com/mauroreisvieira/github-sublime-theme/zip/3179-1.7.0",
+            "date": "2020-12-15 12:05:48"
           },
           {
             "platforms": [
@@ -55828,6 +55828,15 @@
             "sublime_text": ">=4070",
             "version": "1.6.0",
             "url": "https://codeload.github.com/mauroreisvieira/github-sublime-theme/zip/4070-1.6.0",
+            "date": "2020-11-26 15:56:26"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": "3179 - 4069",
+            "version": "1.6.0",
+            "url": "https://codeload.github.com/mauroreisvieira/github-sublime-theme/zip/3179-1.6.0",
             "date": "2020-11-26 15:56:26"
           }
         ]
@@ -56752,21 +56761,21 @@
         "releases": [
           {
             "platforms": [
-              "windows"
-            ],
-            "sublime_text": "*",
-            "version": "1.0.4",
-            "url": "https://codeload.github.com/sindney/GLSLCompiler/zip/win-1.0.4",
-            "date": "2016-01-28 08:17:36"
-          },
-          {
-            "platforms": [
               "osx"
             ],
             "sublime_text": "*",
             "version": "1.0.4",
             "url": "https://codeload.github.com/sindney/GLSLCompiler/zip/osx-1.0.4",
             "date": "2016-01-28 08:19:43"
+          },
+          {
+            "platforms": [
+              "windows"
+            ],
+            "sublime_text": "*",
+            "version": "1.0.4",
+            "url": "https://codeload.github.com/sindney/GLSLCompiler/zip/win-1.0.4",
+            "date": "2016-01-28 08:17:36"
           }
         ]
       },
@@ -69185,19 +69194,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3103",
+            "sublime_text": ">=3103",
             "version": "7.3.2",
-            "url": "https://codeload.github.com/idleberg/sublime-innosetup/zip/st2-7.3.2",
-            "date": "2017-10-29 10:12:16"
+            "url": "https://codeload.github.com/idleberg/sublime-innosetup/zip/st3-7.3.2",
+            "date": "2017-10-29 10:15:11"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3103",
+            "sublime_text": "<3103",
             "version": "7.3.2",
-            "url": "https://codeload.github.com/idleberg/sublime-innosetup/zip/st3-7.3.2",
-            "date": "2017-10-29 10:15:11"
+            "url": "https://codeload.github.com/idleberg/sublime-innosetup/zip/st2-7.3.2",
+            "date": "2017-10-29 10:12:16"
           },
           {
             "platforms": [
@@ -69743,6 +69752,15 @@
         "donate": null,
         "buy": null,
         "releases": [
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": ">=3000",
+            "version": "0.2.1",
+            "url": "https://codeload.github.com/tushortz/intellekt/zip/0.2.1",
+            "date": "2026-11-07 18:32:02"
+          },
           {
             "platforms": [
               "*"
@@ -73709,15 +73727,6 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "4152 - 4198",
-            "version": "2.6.0",
-            "url": "https://codeload.github.com/Sublime-Instincts/BetterJinja/zip/4152-2.6.0",
-            "date": "2025-10-18 12:11:18"
-          },
-          {
-            "platforms": [
-              "*"
-            ],
             "sublime_text": ">=4199",
             "version": "2.6.0",
             "url": "https://codeload.github.com/Sublime-Instincts/BetterJinja/zip/4200-2.6.0",
@@ -73728,9 +73737,9 @@
               "*"
             ],
             "sublime_text": "4152 - 4198",
-            "version": "2.5.0",
-            "url": "https://codeload.github.com/Sublime-Instincts/BetterJinja/zip/4152-2.5.0",
-            "date": "2025-07-03 18:35:50"
+            "version": "2.6.0",
+            "url": "https://codeload.github.com/Sublime-Instincts/BetterJinja/zip/4152-2.6.0",
+            "date": "2025-10-18 12:11:18"
           },
           {
             "platforms": [
@@ -73740,6 +73749,15 @@
             "version": "2.5.0",
             "url": "https://codeload.github.com/Sublime-Instincts/BetterJinja/zip/4200-2.5.0",
             "date": "2025-07-03 18:37:22"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": "4152 - 4198",
+            "version": "2.5.0",
+            "url": "https://codeload.github.com/Sublime-Instincts/BetterJinja/zip/4152-2.5.0",
+            "date": "2025-07-03 18:35:50"
           },
           {
             "platforms": [
@@ -78028,9 +78046,9 @@
               "*"
             ],
             "sublime_text": ">=4000",
-            "version": "3.3.0",
-            "url": "https://codeload.github.com/MikeSiLVO/KodiDevKit/zip/3.3.0",
-            "date": "2026-10-31 15:46:54"
+            "version": "3.3.1",
+            "url": "https://codeload.github.com/MikeSiLVO/KodiDevKit/zip/3.3.1",
+            "date": "2026-11-07 17:19:03"
           },
           {
             "platforms": [
@@ -80587,18 +80605,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3143 - 4106",
+            "sublime_text": "<3000",
             "version": "3.14.2",
-            "url": "https://codeload.github.com/SublimeText/LaTeXTools/zip/st3-3.14.2",
+            "url": "https://codeload.github.com/SublimeText/LaTeXTools/zip/st2-3.14.2",
             "date": "2017-09-07 07:15:15"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
+            "sublime_text": "3143 - 4106",
             "version": "3.14.2",
-            "url": "https://codeload.github.com/SublimeText/LaTeXTools/zip/st2-3.14.2",
+            "url": "https://codeload.github.com/SublimeText/LaTeXTools/zip/st3-3.14.2",
             "date": "2017-09-07 07:15:15"
           }
         ]
@@ -81370,19 +81388,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4149",
+            "sublime_text": "4107 - 4148",
             "version": "3.0.5",
-            "url": "https://codeload.github.com/SublimeText/Less/zip/4149-3.0.5",
-            "date": "2024-03-16 10:20:45"
+            "url": "https://codeload.github.com/SublimeText/Less/zip/4107-3.0.5",
+            "date": "2024-03-16 10:18:51"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "4107 - 4148",
+            "sublime_text": ">=4149",
             "version": "3.0.5",
-            "url": "https://codeload.github.com/SublimeText/Less/zip/4107-3.0.5",
-            "date": "2024-03-16 10:18:51"
+            "url": "https://codeload.github.com/SublimeText/Less/zip/4149-3.0.5",
+            "date": "2024-03-16 10:20:45"
           },
           {
             "platforms": [
@@ -82167,6 +82185,15 @@
               "*"
             ],
             "sublime_text": ">=4050",
+            "version": "1.2.0",
+            "url": "https://codeload.github.com/Jawuilp/Limitcode/zip/1.2.0",
+            "date": "2026-11-07 19:48:39"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": ">=4050",
             "version": "1.1.14",
             "url": "https://codeload.github.com/Jawuilp/Limitcode/zip/1.1.14",
             "date": "2026-11-03 21:53:07"
@@ -82616,15 +82643,6 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "4126 - 4133",
-            "version": "2.3.1",
-            "url": "https://codeload.github.com/SublimeText/Liquid/zip/4126-2.3.1",
-            "date": "2026-09-30 18:48:54"
-          },
-          {
-            "platforms": [
-              "*"
-            ],
             "sublime_text": "4134 - 4148",
             "version": "2.3.1",
             "url": "https://codeload.github.com/SublimeText/Liquid/zip/4134-2.3.1",
@@ -82634,10 +82652,10 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "4134 - 4148",
-            "version": "2.2.6",
-            "url": "https://codeload.github.com/SublimeText/Liquid/zip/4134-2.2.6",
-            "date": "2025-04-27 19:07:43"
+            "sublime_text": "4126 - 4133",
+            "version": "2.3.1",
+            "url": "https://codeload.github.com/SublimeText/Liquid/zip/4126-2.3.1",
+            "date": "2026-09-30 18:48:54"
           },
           {
             "platforms": [
@@ -82662,9 +82680,9 @@
               "*"
             ],
             "sublime_text": "4134 - 4148",
-            "version": "2.1.3",
-            "url": "https://codeload.github.com/SublimeText/Liquid/zip/4134-2.1.3",
-            "date": "2023-03-10 20:10:54"
+            "version": "2.2.6",
+            "url": "https://codeload.github.com/SublimeText/Liquid/zip/4134-2.2.6",
+            "date": "2025-04-27 19:07:43"
           },
           {
             "platforms": [
@@ -82674,6 +82692,15 @@
             "version": "2.1.3",
             "url": "https://codeload.github.com/SublimeText/Liquid/zip/4126-2.1.3",
             "date": "2023-03-10 20:10:45"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": "4134 - 4148",
+            "version": "2.1.3",
+            "url": "https://codeload.github.com/SublimeText/Liquid/zip/4134-2.1.3",
+            "date": "2023-03-10 20:10:54"
           },
           {
             "platforms": [
@@ -86852,15 +86879,6 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4200",
-            "version": "3.5.1",
-            "url": "https://codeload.github.com/SublimeText-Markdown/MarkdownEditing/zip/4200-3.5.1",
-            "date": "2025-10-22 17:33:06"
-          },
-          {
-            "platforms": [
-              "*"
-            ],
             "sublime_text": "4107 - 4199",
             "version": "3.5.1",
             "url": "https://codeload.github.com/SublimeText-Markdown/MarkdownEditing/zip/4107-3.5.1",
@@ -86871,9 +86889,9 @@
               "*"
             ],
             "sublime_text": ">=4200",
-            "version": "3.4.0",
-            "url": "https://codeload.github.com/SublimeText-Markdown/MarkdownEditing/zip/4200-3.4.0",
-            "date": "2025-06-26 14:57:16"
+            "version": "3.5.1",
+            "url": "https://codeload.github.com/SublimeText-Markdown/MarkdownEditing/zip/4200-3.5.1",
+            "date": "2025-10-22 17:33:06"
           },
           {
             "platforms": [
@@ -86883,6 +86901,15 @@
             "version": "3.4.0",
             "url": "https://codeload.github.com/SublimeText-Markdown/MarkdownEditing/zip/4107-3.4.0",
             "date": "2025-06-26 14:45:11"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": ">=4200",
+            "version": "3.4.0",
+            "url": "https://codeload.github.com/SublimeText-Markdown/MarkdownEditing/zip/4200-3.4.0",
+            "date": "2025-06-26 14:57:16"
           },
           {
             "platforms": [
@@ -86933,10 +86960,10 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "2000 - 3175",
+            "sublime_text": "3176 - 4106",
             "version": "2.2.10",
-            "url": "https://codeload.github.com/SublimeText-Markdown/MarkdownEditing/zip/st2-2.2.10",
-            "date": "2018-02-09 03:59:58"
+            "url": "https://codeload.github.com/SublimeText-Markdown/MarkdownEditing/zip/3176-2.2.10",
+            "date": "2021-07-04 09:40:30"
           },
           {
             "platforms": [
@@ -86951,10 +86978,10 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3176 - 4106",
+            "sublime_text": "2000 - 3175",
             "version": "2.2.10",
-            "url": "https://codeload.github.com/SublimeText-Markdown/MarkdownEditing/zip/3176-2.2.10",
-            "date": "2021-07-04 09:40:30"
+            "url": "https://codeload.github.com/SublimeText-Markdown/MarkdownEditing/zip/st2-2.2.10",
+            "date": "2018-02-09 03:59:58"
           }
         ]
       },
@@ -87497,9 +87524,9 @@
               "*"
             ],
             "sublime_text": ">=4107",
-            "version": "0.3.4",
-            "url": "https://codeload.github.com/CaffeineOddity/MarkdownPreviewEnhanced/zip/0.3.4",
-            "date": "2026-11-06 05:16:02"
+            "version": "0.3.5",
+            "url": "https://codeload.github.com/CaffeineOddity/MarkdownPreviewEnhanced/zip/0.3.5",
+            "date": "2026-11-07 06:23:22"
           },
           {
             "platforms": [
@@ -88260,18 +88287,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4205",
+            "sublime_text": "4099 - 4204",
             "version": "0.7.0",
-            "url": "https://codeload.github.com/retifrav/marlant/zip/v0.7.0",
+            "url": "https://codeload.github.com/retifrav/marlant/zip/4099-0.7.0",
             "date": "2023-09-12 16:35:06"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "4099 - 4204",
+            "sublime_text": ">=4205",
             "version": "0.7.0",
-            "url": "https://codeload.github.com/retifrav/marlant/zip/4099-0.7.0",
+            "url": "https://codeload.github.com/retifrav/marlant/zip/v0.7.0",
             "date": "2023-09-12 16:35:06"
           },
           {
@@ -89959,19 +89986,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "4126 - 4142",
+            "sublime_text": ">=4143",
             "version": "1.0.2",
-            "url": "https://codeload.github.com/SublimeText/MDX/zip/4126-1.0.2",
-            "date": "2026-02-28 19:20:35"
+            "url": "https://codeload.github.com/SublimeText/MDX/zip/4143-1.0.2",
+            "date": "2026-02-28 19:21:07"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4143",
+            "sublime_text": "4126 - 4142",
             "version": "1.0.2",
-            "url": "https://codeload.github.com/SublimeText/MDX/zip/4143-1.0.2",
-            "date": "2026-02-28 19:21:07"
+            "url": "https://codeload.github.com/SublimeText/MDX/zip/4126-1.0.2",
+            "date": "2026-02-28 19:20:35"
           },
           {
             "platforms": [
@@ -90248,19 +90275,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3179 - 4069",
+            "sublime_text": ">=4070",
             "version": "5.1.0",
-            "url": "https://codeload.github.com/meetio-theme/sublime-meetio-theme/zip/3179-5.1.0",
-            "date": "2021-04-09 09:00:30"
+            "url": "https://codeload.github.com/meetio-theme/sublime-meetio-theme/zip/4070-5.1.0",
+            "date": "2021-01-22 18:13:48"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4070",
+            "sublime_text": "3179 - 4069",
             "version": "5.1.0",
-            "url": "https://codeload.github.com/meetio-theme/sublime-meetio-theme/zip/4070-5.1.0",
-            "date": "2021-01-22 18:13:48"
+            "url": "https://codeload.github.com/meetio-theme/sublime-meetio-theme/zip/3179-5.1.0",
+            "date": "2021-04-09 09:00:30"
           },
           {
             "platforms": [
@@ -93774,18 +93801,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3211",
+            "sublime_text": ">=3211",
             "version": "1.20.7",
-            "url": "https://codeload.github.com/gerardroche/sublime-monokai-free/zip/st3-1.20.7",
+            "url": "https://codeload.github.com/gerardroche/sublime-monokai-free/zip/1.20.7",
             "date": "2023-06-04 19:07:44"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3211",
+            "sublime_text": "<3211",
             "version": "1.20.7",
-            "url": "https://codeload.github.com/gerardroche/sublime-monokai-free/zip/1.20.7",
+            "url": "https://codeload.github.com/gerardroche/sublime-monokai-free/zip/st3-1.20.7",
             "date": "2023-06-04 19:07:44"
           },
           {
@@ -94588,18 +94615,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<4000",
+            "sublime_text": ">=4000",
             "version": "1.2.0",
-            "url": "https://codeload.github.com/SublimeText/MoveTab/zip/st3-v1.2.0",
+            "url": "https://codeload.github.com/SublimeText/MoveTab/zip/v1.2.0",
             "date": "2021-05-22 12:19:22"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": "<4000",
             "version": "1.2.0",
-            "url": "https://codeload.github.com/SublimeText/MoveTab/zip/v1.2.0",
+            "url": "https://codeload.github.com/SublimeText/MoveTab/zip/st3-v1.2.0",
             "date": "2021-05-22 12:19:22"
           },
           {
@@ -100160,19 +100187,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3103",
+            "sublime_text": ">=3103",
             "version": "3.1.3",
-            "url": "https://codeload.github.com/idleberg/sublime-nsl-assembler/zip/st2-3.1.3",
-            "date": "2016-11-05 23:27:56"
+            "url": "https://codeload.github.com/idleberg/sublime-nsl-assembler/zip/st3-3.1.3",
+            "date": "2016-11-05 23:27:33"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3103",
+            "sublime_text": "<3103",
             "version": "3.1.3",
-            "url": "https://codeload.github.com/idleberg/sublime-nsl-assembler/zip/st3-3.1.3",
-            "date": "2016-11-05 23:27:33"
+            "url": "https://codeload.github.com/idleberg/sublime-nsl-assembler/zip/st2-3.1.3",
+            "date": "2016-11-05 23:27:56"
           },
           {
             "platforms": [
@@ -104735,18 +104762,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3154",
+            "sublime_text": "4094 - 4134",
             "version": "2.1.0",
-            "url": "https://codeload.github.com/SublimeText/PackageDev/zip/st2-2.1.0",
+            "url": "https://codeload.github.com/SublimeText/PackageDev/zip/2.1.0",
             "date": "2016-03-07 01:51:58"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "4094 - 4134",
+            "sublime_text": "<3154",
             "version": "2.1.0",
-            "url": "https://codeload.github.com/SublimeText/PackageDev/zip/2.1.0",
+            "url": "https://codeload.github.com/SublimeText/PackageDev/zip/st2-2.1.0",
             "date": "2016-03-07 01:51:58"
           },
           {
@@ -112352,18 +112379,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "4107 - 4203",
+            "sublime_text": ">=4204",
             "version": "5.0.3",
-            "url": "https://codeload.github.com/SublimeText/PowerShell/zip/st4107-5.0.3",
+            "url": "https://codeload.github.com/SublimeText/PowerShell/zip/5.0.3",
             "date": "2026-04-20 00:27:09"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4204",
+            "sublime_text": "4107 - 4203",
             "version": "5.0.3",
-            "url": "https://codeload.github.com/SublimeText/PowerShell/zip/5.0.3",
+            "url": "https://codeload.github.com/SublimeText/PowerShell/zip/st4107-5.0.3",
             "date": "2026-04-20 00:27:09"
           },
           {
@@ -113355,15 +113382,6 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3000",
-            "version": "0.2.0",
-            "url": "https://codeload.github.com/aukaost/SublimePrettyYAML/zip/0.2.0",
-            "date": "2020-05-04 13:53:13"
-          },
-          {
-            "platforms": [
-              "*"
-            ],
             "sublime_text": "<3000",
             "version": "0.2.0",
             "url": "https://codeload.github.com/aukaost/SublimePrettyYAML/zip/st2-0.2.0",
@@ -113373,10 +113391,10 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
-            "version": "0.1.0",
-            "url": "https://codeload.github.com/aukaost/SublimePrettyYAML/zip/st2-0.1.0",
-            "date": "2013-12-16 15:20:19"
+            "sublime_text": ">=3000",
+            "version": "0.2.0",
+            "url": "https://codeload.github.com/aukaost/SublimePrettyYAML/zip/0.2.0",
+            "date": "2020-05-04 13:53:13"
           },
           {
             "platforms": [
@@ -113386,6 +113404,15 @@
             "version": "0.1.0",
             "url": "https://codeload.github.com/aukaost/SublimePrettyYAML/zip/0.1.0",
             "date": "2013-12-16 15:16:05"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": "<3000",
+            "version": "0.1.0",
+            "url": "https://codeload.github.com/aukaost/SublimePrettyYAML/zip/st2-0.1.0",
+            "date": "2013-12-16 15:20:19"
           }
         ]
       },
@@ -115829,18 +115856,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<4000",
+            "sublime_text": ">=4000",
             "version": "0.8.11",
-            "url": "https://codeload.github.com/kaste/PyTest/zip/st3-0.8.11",
+            "url": "https://codeload.github.com/kaste/PyTest/zip/0.8.11",
             "date": "2022-10-14 16:04:24"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": "<4000",
             "version": "0.8.11",
-            "url": "https://codeload.github.com/kaste/PyTest/zip/0.8.11",
+            "url": "https://codeload.github.com/kaste/PyTest/zip/st3-0.8.11",
             "date": "2022-10-14 16:04:24"
           },
           {
@@ -123031,18 +123058,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4205",
+            "sublime_text": "3084 - 4106",
             "version": "2.39.5",
-            "url": "https://codeload.github.com/kylebebak/Requester/zip/2.39.5",
+            "url": "https://codeload.github.com/kylebebak/Requester/zip/st3-2.39.5",
             "date": "2021-12-13 16:12:59"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "3084 - 4106",
+            "sublime_text": ">=4205",
             "version": "2.39.5",
-            "url": "https://codeload.github.com/kylebebak/Requester/zip/st3-2.39.5",
+            "url": "https://codeload.github.com/kylebebak/Requester/zip/2.39.5",
             "date": "2021-12-13 16:12:59"
           },
           {
@@ -126251,19 +126278,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "4107 - 4130",
+            "sublime_text": ">=4131",
             "version": "2.0.2",
-            "url": "https://codeload.github.com/SublimeText/Slim/zip/4107-2.0.2",
-            "date": "2023-05-31 16:45:35"
+            "url": "https://codeload.github.com/SublimeText/Slim/zip/4131-2.0.2",
+            "date": "2023-05-31 16:46:57"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4131",
+            "sublime_text": "4107 - 4130",
             "version": "2.0.2",
-            "url": "https://codeload.github.com/SublimeText/Slim/zip/4131-2.0.2",
-            "date": "2023-05-31 16:46:57"
+            "url": "https://codeload.github.com/SublimeText/Slim/zip/4107-2.0.2",
+            "date": "2023-05-31 16:45:35"
           },
           {
             "platforms": [
@@ -127377,18 +127404,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3000",
+            "sublime_text": "<3000",
             "version": "2.4.1",
-            "url": "https://codeload.github.com/SublimeText/SaneSnippets/zip/v2.4.1",
+            "url": "https://codeload.github.com/SublimeText/SaneSnippets/zip/st2-v2.4.1",
             "date": "2017-02-20 16:28:59"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
+            "sublime_text": ">=3000",
             "version": "2.4.1",
-            "url": "https://codeload.github.com/SublimeText/SaneSnippets/zip/st2-v2.4.1",
+            "url": "https://codeload.github.com/SublimeText/SaneSnippets/zip/v2.4.1",
             "date": "2017-02-20 16:28:59"
           },
           {
@@ -127524,15 +127551,6 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "4134 - 4168",
-            "version": "4.0.2",
-            "url": "https://codeload.github.com/SublimeText/Sass/zip/4134-4.0.2",
-            "date": "2024-10-31 12:34:08"
-          },
-          {
-            "platforms": [
-              "*"
-            ],
             "sublime_text": ">=4169",
             "version": "4.0.2",
             "url": "https://codeload.github.com/SublimeText/Sass/zip/4169-4.0.2",
@@ -127546,6 +127564,15 @@
             "version": "4.0.2",
             "url": "https://codeload.github.com/SublimeText/Sass/zip/4107-4.0.2",
             "date": "2024-10-31 12:35:03"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": "4134 - 4168",
+            "version": "4.0.2",
+            "url": "https://codeload.github.com/SublimeText/Sass/zip/4134-4.0.2",
+            "date": "2024-10-31 12:34:08"
           },
           {
             "platforms": [
@@ -136828,15 +136855,6 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
-            "version": "2.0.1",
-            "url": "https://codeload.github.com/Doi9t/SortBy/zip/st4-2.0.1",
-            "date": "2021-07-20 11:27:36"
-          },
-          {
-            "platforms": [
-              "*"
-            ],
             "sublime_text": "3000 - 3999",
             "version": "2.0.1",
             "url": "https://codeload.github.com/Doi9t/SortBy/zip/st3-2.0.1",
@@ -136846,10 +136864,10 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3000 - 3999",
-            "version": "1.4.1",
-            "url": "https://codeload.github.com/Doi9t/SortBy/zip/st3-1.4.1",
-            "date": "2021-07-10 23:48:58"
+            "sublime_text": ">=4000",
+            "version": "2.0.1",
+            "url": "https://codeload.github.com/Doi9t/SortBy/zip/st4-2.0.1",
+            "date": "2021-07-20 11:27:36"
           },
           {
             "platforms": [
@@ -136864,10 +136882,10 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
-            "version": "1.3.0",
-            "url": "https://codeload.github.com/Doi9t/SortBy/zip/st4-1.3.0",
-            "date": "2021-07-04 22:02:16"
+            "sublime_text": "3000 - 3999",
+            "version": "1.4.1",
+            "url": "https://codeload.github.com/Doi9t/SortBy/zip/st3-1.4.1",
+            "date": "2021-07-10 23:48:58"
           },
           {
             "platforms": [
@@ -136876,6 +136894,15 @@
             "sublime_text": "3000 - 3999",
             "version": "1.3.0",
             "url": "https://codeload.github.com/Doi9t/SortBy/zip/st3-1.3.0",
+            "date": "2021-07-04 22:02:16"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": ">=4000",
+            "version": "1.3.0",
+            "url": "https://codeload.github.com/Doi9t/SortBy/zip/st4-1.3.0",
             "date": "2021-07-04 22:02:16"
           },
           {
@@ -136891,18 +136918,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": "3000 - 3999",
             "version": "1.2.0",
-            "url": "https://codeload.github.com/Doi9t/SortBy/zip/st4-1.2.0",
+            "url": "https://codeload.github.com/Doi9t/SortBy/zip/st3-1.2.0",
             "date": "2021-05-24 13:52:44"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "3000 - 3999",
+            "sublime_text": ">=4000",
             "version": "1.2.0",
-            "url": "https://codeload.github.com/Doi9t/SortBy/zip/st3-1.2.0",
+            "url": "https://codeload.github.com/Doi9t/SortBy/zip/st4-1.2.0",
             "date": "2021-05-24 13:52:44"
           },
           {
@@ -137136,20 +137163,20 @@
         "releases": [
           {
             "platforms": [
-              "windows"
-            ],
-            "sublime_text": ">=3000",
-            "version": "1.2.3",
-            "url": "https://codeload.github.com/airtoxin/Sublime-Sound/zip/st3-windows-1.2.3",
-            "date": "2016-05-09 02:15:50"
-          },
-          {
-            "platforms": [
               "osx"
             ],
             "sublime_text": ">=3000",
             "version": "1.2.3",
             "url": "https://codeload.github.com/airtoxin/Sublime-Sound/zip/st3-osx-1.2.3",
+            "date": "2016-05-09 02:15:50"
+          },
+          {
+            "platforms": [
+              "windows"
+            ],
+            "sublime_text": ">=3000",
+            "version": "1.2.3",
+            "url": "https://codeload.github.com/airtoxin/Sublime-Sound/zip/st3-windows-1.2.3",
             "date": "2016-05-09 02:15:50"
           },
           {
@@ -137172,20 +137199,20 @@
           },
           {
             "platforms": [
-              "linux"
-            ],
-            "sublime_text": ">=3000",
-            "version": "1.0.0",
-            "url": "https://codeload.github.com/airtoxin/Sublime-Sound/zip/st3-linux-1.0.0",
-            "date": "2015-03-12 13:50:33"
-          },
-          {
-            "platforms": [
               "osx"
             ],
             "sublime_text": "<3000",
             "version": "1.0.0",
             "url": "https://codeload.github.com/airtoxin/Sublime-Sound/zip/st2-osx-1.0.0",
+            "date": "2015-03-12 13:50:33"
+          },
+          {
+            "platforms": [
+              "linux"
+            ],
+            "sublime_text": ">=3000",
+            "version": "1.0.0",
+            "url": "https://codeload.github.com/airtoxin/Sublime-Sound/zip/st3-linux-1.0.0",
             "date": "2015-03-12 13:50:33"
           },
           {
@@ -137199,20 +137226,20 @@
           },
           {
             "platforms": [
-              "windows"
-            ],
-            "sublime_text": ">=3000",
-            "version": "1.0.0",
-            "url": "https://codeload.github.com/airtoxin/Sublime-Sound/zip/st3-windows-1.0.0",
-            "date": "2015-03-12 13:50:33"
-          },
-          {
-            "platforms": [
               "osx"
             ],
             "sublime_text": ">=3000",
             "version": "1.0.0",
             "url": "https://codeload.github.com/airtoxin/Sublime-Sound/zip/st3-osx-1.0.0",
+            "date": "2015-03-12 13:50:33"
+          },
+          {
+            "platforms": [
+              "windows"
+            ],
+            "sublime_text": ">=3000",
+            "version": "1.0.0",
+            "url": "https://codeload.github.com/airtoxin/Sublime-Sound/zip/st3-windows-1.0.0",
             "date": "2015-03-12 13:50:33"
           }
         ]
@@ -139267,18 +139294,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4075",
+            "sublime_text": "3156 - 4074",
             "version": "4.1.1",
-            "url": "https://codeload.github.com/robballou/sublimetext-sshconfig/zip/st4-4.1.1",
+            "url": "https://codeload.github.com/robballou/sublimetext-sshconfig/zip/st3-4.1.1",
             "date": "2020-11-18 15:24:08"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "3156 - 4074",
+            "sublime_text": ">=4075",
             "version": "4.1.1",
-            "url": "https://codeload.github.com/robballou/sublimetext-sshconfig/zip/st3-4.1.1",
+            "url": "https://codeload.github.com/robballou/sublimetext-sshconfig/zip/st4-4.1.1",
             "date": "2020-11-18 15:24:08"
           },
           {
@@ -142086,19 +142113,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3000",
+            "sublime_text": "<3000",
             "version": "2.2.0",
-            "url": "https://codeload.github.com/SublimeCodeIntel/SublimeCodeIntel/zip/st3-v2.2.0",
-            "date": "2015-03-26 18:24:34"
+            "url": "https://codeload.github.com/SublimeCodeIntel/SublimeCodeIntel/zip/st2-v2.2.0",
+            "date": "2015-03-26 18:23:51"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
+            "sublime_text": ">=3000",
             "version": "2.2.0",
-            "url": "https://codeload.github.com/SublimeCodeIntel/SublimeCodeIntel/zip/st2-v2.2.0",
-            "date": "2015-03-26 18:23:51"
+            "url": "https://codeload.github.com/SublimeCodeIntel/SublimeCodeIntel/zip/st3-v2.2.0",
+            "date": "2015-03-26 18:24:34"
           },
           {
             "platforms": [
@@ -142122,19 +142149,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
+            "sublime_text": ">=3000",
             "version": "2.0.6",
-            "url": "https://codeload.github.com/SublimeCodeIntel/SublimeCodeIntel/zip/st2-v2.0.6",
-            "date": "2013-09-21 15:04:58"
+            "url": "https://codeload.github.com/SublimeCodeIntel/SublimeCodeIntel/zip/st3-v2.0.6",
+            "date": "2013-09-21 15:05:22"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3000",
+            "sublime_text": "<3000",
             "version": "2.0.6",
-            "url": "https://codeload.github.com/SublimeCodeIntel/SublimeCodeIntel/zip/st3-v2.0.6",
-            "date": "2013-09-21 15:05:22"
+            "url": "https://codeload.github.com/SublimeCodeIntel/SublimeCodeIntel/zip/st2-v2.0.6",
+            "date": "2013-09-21 15:04:58"
           }
         ]
       },
@@ -143588,6 +143615,15 @@
         "releases": [
           {
             "platforms": [
+              "windows"
+            ],
+            "sublime_text": ">=3065",
+            "version": "1.0.8",
+            "url": "https://codeload.github.com/jaipandya/SublimeTutor/zip/win-1.0.8",
+            "date": "2020-06-29 08:28:14"
+          },
+          {
+            "platforms": [
               "linux"
             ],
             "sublime_text": ">=3000",
@@ -143603,15 +143639,6 @@
             "version": "1.0.8",
             "url": "https://codeload.github.com/jaipandya/SublimeTutor/zip/osx-1.0.8",
             "date": "2020-06-29 08:20:29"
-          },
-          {
-            "platforms": [
-              "windows"
-            ],
-            "sublime_text": ">=3065",
-            "version": "1.0.8",
-            "url": "https://codeload.github.com/jaipandya/SublimeTutor/zip/win-1.0.8",
-            "date": "2020-06-29 08:28:14"
           },
           {
             "platforms": [
@@ -143633,20 +143660,20 @@
           },
           {
             "platforms": [
-              "linux"
-            ],
-            "sublime_text": ">=3000",
-            "version": "0.1.6",
-            "url": "https://codeload.github.com/jaipandya/SublimeTutor/zip/linux-0.1.6",
-            "date": "2016-06-25 07:33:48"
-          },
-          {
-            "platforms": [
               "windows"
             ],
             "sublime_text": ">=3065",
             "version": "0.1.6",
             "url": "https://codeload.github.com/jaipandya/SublimeTutor/zip/win-0.1.6",
+            "date": "2016-06-25 07:33:48"
+          },
+          {
+            "platforms": [
+              "linux"
+            ],
+            "sublime_text": ">=3000",
+            "version": "0.1.6",
+            "url": "https://codeload.github.com/jaipandya/SublimeTutor/zip/linux-0.1.6",
             "date": "2016-06-25 07:33:48"
           }
         ]
@@ -147583,18 +147610,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
+            "sublime_text": "3000 - 3300",
             "version": "1.4.2",
-            "url": "https://codeload.github.com/robinmalburn/sublime-tabfilter/zip/st2-1.4.2",
+            "url": "https://codeload.github.com/robinmalburn/sublime-tabfilter/zip/st3-1.4.2",
             "date": "2021-07-27 19:46:51"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "3000 - 3300",
+            "sublime_text": "<3000",
             "version": "1.4.2",
-            "url": "https://codeload.github.com/robinmalburn/sublime-tabfilter/zip/st3-1.4.2",
+            "url": "https://codeload.github.com/robinmalburn/sublime-tabfilter/zip/st2-1.4.2",
             "date": "2021-07-27 19:46:51"
           },
           {
@@ -147669,19 +147696,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3000",
+            "sublime_text": "<3000",
             "version": "1.0.0",
-            "url": "https://codeload.github.com/amisarca/Sublime-Text-Table-Cleaner/zip/v1.0.0",
-            "date": "2013-11-16 17:04:37"
+            "url": "https://codeload.github.com/amisarca/Sublime-Text-2-Table-Cleaner/zip/v1.0.0",
+            "date": "2013-11-16 16:53:03"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
+            "sublime_text": ">=3000",
             "version": "1.0.0",
-            "url": "https://codeload.github.com/amisarca/Sublime-Text-2-Table-Cleaner/zip/v1.0.0",
-            "date": "2013-11-16 16:53:03"
+            "url": "https://codeload.github.com/amisarca/Sublime-Text-Table-Cleaner/zip/v1.0.0",
+            "date": "2013-11-16 17:04:37"
           },
           {
             "platforms": [
@@ -147705,19 +147732,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3000",
+            "sublime_text": "<3000",
             "version": "0.0.1",
-            "url": "https://codeload.github.com/amisarca/Sublime-Text-Table-Cleaner/zip/v0.0.1",
-            "date": "2013-11-16 09:51:47"
+            "url": "https://codeload.github.com/amisarca/Sublime-Text-2-Table-Cleaner/zip/v0.0.1",
+            "date": "2012-08-26 19:18:46"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
+            "sublime_text": ">=3000",
             "version": "0.0.1",
-            "url": "https://codeload.github.com/amisarca/Sublime-Text-2-Table-Cleaner/zip/v0.0.1",
-            "date": "2012-08-26 19:18:46"
+            "url": "https://codeload.github.com/amisarca/Sublime-Text-Table-Cleaner/zip/v0.0.1",
+            "date": "2013-11-16 09:51:47"
           }
         ]
       },
@@ -148646,19 +148673,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4174",
+            "sublime_text": "4149 - 4173",
             "version": "1.6.2",
-            "url": "https://codeload.github.com/SublimeText/TailwindCSS/zip/4174-1.6.2",
-            "date": "2025-12-10 20:03:20"
+            "url": "https://codeload.github.com/SublimeText/TailwindCSS/zip/4149-1.6.2",
+            "date": "2025-12-10 20:03:08"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "4149 - 4173",
+            "sublime_text": ">=4174",
             "version": "1.6.2",
-            "url": "https://codeload.github.com/SublimeText/TailwindCSS/zip/4149-1.6.2",
-            "date": "2025-12-10 20:03:08"
+            "url": "https://codeload.github.com/SublimeText/TailwindCSS/zip/4174-1.6.2",
+            "date": "2025-12-10 20:03:20"
           },
           {
             "platforms": [
@@ -148682,19 +148709,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "4149 - 4173",
+            "sublime_text": ">=4174",
             "version": "1.4.0",
-            "url": "https://codeload.github.com/SublimeText/TailwindCSS/zip/4149-1.4.0",
-            "date": "2024-10-26 08:30:39"
+            "url": "https://codeload.github.com/SublimeText/TailwindCSS/zip/4174-1.4.0",
+            "date": "2024-10-26 08:30:47"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4174",
+            "sublime_text": "4149 - 4173",
             "version": "1.4.0",
-            "url": "https://codeload.github.com/SublimeText/TailwindCSS/zip/4174-1.4.0",
-            "date": "2024-10-26 08:30:47"
+            "url": "https://codeload.github.com/SublimeText/TailwindCSS/zip/4149-1.4.0",
+            "date": "2024-10-26 08:30:39"
           },
           {
             "platforms": [
@@ -149028,19 +149055,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3000",
+            "sublime_text": "<3000",
             "version": "1.1.0",
-            "url": "https://codeload.github.com/samsonw/SublimeTask/zip/st3-1.1.0",
-            "date": "2015-05-12 18:27:36"
+            "url": "https://codeload.github.com/samsonw/SublimeTask/zip/st2-1.1.0",
+            "date": "2013-02-19 18:11:41"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
+            "sublime_text": ">=3000",
             "version": "1.1.0",
-            "url": "https://codeload.github.com/samsonw/SublimeTask/zip/st2-1.1.0",
-            "date": "2013-02-19 18:11:41"
+            "url": "https://codeload.github.com/samsonw/SublimeTask/zip/st3-1.1.0",
+            "date": "2015-05-12 18:27:36"
           }
         ]
       },
@@ -153914,15 +153941,6 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3200 - 3300",
-            "version": "1.0.4",
-            "url": "https://codeload.github.com/AmjadHD/sublime_one_theme/zip/st3-1.0.4",
-            "date": "2021-12-15 14:09:32"
-          },
-          {
-            "platforms": [
-              "*"
-            ],
             "sublime_text": ">=4000",
             "version": "1.0.4",
             "url": "https://codeload.github.com/AmjadHD/sublime_one_theme/zip/1.0.4",
@@ -153932,10 +153950,10 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
-            "version": "0.3.3",
-            "url": "https://codeload.github.com/AmjadHD/sublime_one_theme/zip/0.3.3",
-            "date": "2021-03-07 21:12:03"
+            "sublime_text": "3200 - 3300",
+            "version": "1.0.4",
+            "url": "https://codeload.github.com/AmjadHD/sublime_one_theme/zip/st3-1.0.4",
+            "date": "2021-12-15 14:09:32"
           },
           {
             "platforms": [
@@ -153945,6 +153963,15 @@
             "version": "0.3.3",
             "url": "https://codeload.github.com/AmjadHD/sublime_one_theme/zip/st3-0.3.3",
             "date": "2021-03-07 21:11:03"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": ">=4000",
+            "version": "0.3.3",
+            "url": "https://codeload.github.com/AmjadHD/sublime_one_theme/zip/0.3.3",
+            "date": "2021-03-07 21:12:03"
           },
           {
             "platforms": [
@@ -155087,18 +155114,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<4000",
+            "sublime_text": ">=4000",
             "version": "1.3.5",
-            "url": "https://codeload.github.com/SublimeText/Spacegray/zip/st3-1.3.5",
+            "url": "https://codeload.github.com/SublimeText/Spacegray/zip/1.3.5",
             "date": "2018-10-17 08:54:14"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": "<4000",
             "version": "1.3.5",
-            "url": "https://codeload.github.com/SublimeText/Spacegray/zip/1.3.5",
+            "url": "https://codeload.github.com/SublimeText/Spacegray/zip/st3-1.3.5",
             "date": "2018-10-17 08:54:14"
           },
           {
@@ -155427,18 +155454,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4201",
+            "sublime_text": "3000 - 4200",
             "version": "1.10.1",
-            "url": "https://codeload.github.com/facelessuser/ThemeTweaker/zip/st4-1.10.1",
+            "url": "https://codeload.github.com/facelessuser/ThemeTweaker/zip/st3-1.10.1",
             "date": "2025-09-30 18:48:53"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "3000 - 4200",
+            "sublime_text": ">=4201",
             "version": "1.10.1",
-            "url": "https://codeload.github.com/facelessuser/ThemeTweaker/zip/st3-1.10.1",
+            "url": "https://codeload.github.com/facelessuser/ThemeTweaker/zip/st4-1.10.1",
             "date": "2025-09-30 18:48:53"
           },
           {
@@ -157435,6 +157462,15 @@
               "*"
             ],
             "sublime_text": "*",
+            "version": "1.1.1",
+            "url": "https://codeload.github.com/educbraga/ToggleSidebarFocus/zip/1.1.1",
+            "date": "2026-11-07 01:19:16"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": "*",
             "version": "1.0.0",
             "url": "https://codeload.github.com/educbraga/ToggleSidebarFocus/zip/1.0.0",
             "date": "2023-11-14 00:08:45"
@@ -157728,18 +157764,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "4000 - 4204",
+            "sublime_text": ">=4205",
             "version": "1.0.2",
-            "url": "https://codeload.github.com/yaroslavyaroslav/SublimeTokenCounter/zip/py38-1.0.2",
+            "url": "https://codeload.github.com/yaroslavyaroslav/SublimeTokenCounter/zip/1.0.2",
             "date": "2026-10-07 13:04:41"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4205",
+            "sublime_text": "4000 - 4204",
             "version": "1.0.2",
-            "url": "https://codeload.github.com/yaroslavyaroslav/SublimeTokenCounter/zip/1.0.2",
+            "url": "https://codeload.github.com/yaroslavyaroslav/SublimeTokenCounter/zip/py38-1.0.2",
             "date": "2026-10-07 13:04:41"
           }
         ]
@@ -159999,15 +160035,6 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4152",
-            "version": "3.0.3",
-            "url": "https://codeload.github.com/Sublime-Instincts/BetterTwig/zip/v3.0.3",
-            "date": "2024-10-18 18:37:11"
-          },
-          {
-            "platforms": [
-              "*"
-            ],
             "sublime_text": "4142 - 4149",
             "version": "3.0.3",
             "url": "https://codeload.github.com/Sublime-Instincts/BetterTwig/zip/4142-3.0.3",
@@ -160018,9 +160045,9 @@
               "*"
             ],
             "sublime_text": ">=4152",
-            "version": "2.1.0",
-            "url": "https://codeload.github.com/Sublime-Instincts/BetterTwig/zip/v2.1.0",
-            "date": "2022-05-11 09:29:08"
+            "version": "3.0.3",
+            "url": "https://codeload.github.com/Sublime-Instincts/BetterTwig/zip/v3.0.3",
+            "date": "2024-10-18 18:37:11"
           },
           {
             "platforms": [
@@ -160029,6 +160056,15 @@
             "sublime_text": "4107 - 4141",
             "version": "2.1.0",
             "url": "https://codeload.github.com/Sublime-Instincts/BetterTwig/zip/4107-2.1.0",
+            "date": "2022-05-11 09:29:08"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": ">=4152",
+            "version": "2.1.0",
+            "url": "https://codeload.github.com/Sublime-Instincts/BetterTwig/zip/v2.1.0",
             "date": "2022-05-11 09:29:08"
           },
           {
@@ -162065,18 +162101,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3000",
+            "sublime_text": "<3000",
             "version": "0.10.6",
-            "url": "https://codeload.github.com/SublimeText/UnitTesting/zip/0.10.6",
+            "url": "https://codeload.github.com/SublimeText/UnitTesting/zip/st2-0.10.6",
             "date": "2017-07-27 21:42:18"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
+            "sublime_text": ">=3000",
             "version": "0.10.6",
-            "url": "https://codeload.github.com/SublimeText/UnitTesting/zip/st2-0.10.6",
+            "url": "https://codeload.github.com/SublimeText/UnitTesting/zip/0.10.6",
             "date": "2017-07-27 21:42:18"
           },
           {
@@ -166500,19 +166536,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4143",
+            "sublime_text": "4107 - 4142",
             "version": "0.2.1",
-            "url": "https://codeload.github.com/SublimeText/WasmInterfaceType/zip/4143-0.2.1",
-            "date": "2026-04-27 19:39:52"
+            "url": "https://codeload.github.com/SublimeText/WasmInterfaceType/zip/4107-0.2.1",
+            "date": "2026-04-27 19:40:44"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "4107 - 4142",
+            "sublime_text": ">=4143",
             "version": "0.2.1",
-            "url": "https://codeload.github.com/SublimeText/WasmInterfaceType/zip/4107-0.2.1",
-            "date": "2026-04-27 19:40:44"
+            "url": "https://codeload.github.com/SublimeText/WasmInterfaceType/zip/4143-0.2.1",
+            "date": "2026-04-27 19:39:52"
           },
           {
             "platforms": [
@@ -170473,19 +170509,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "4075 - 4147",
+            "sublime_text": ">=4148",
             "version": "0.1.2",
-            "url": "https://codeload.github.com/eugenesvk/sublime-xonsh/zip/4075-4147_0.1.2",
-            "date": "2023-07-18 09:28:37"
+            "url": "https://codeload.github.com/eugenesvk/sublime-xonsh/zip/0.1.2",
+            "date": "2021-12-12 09:12:11"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4148",
+            "sublime_text": "4075 - 4147",
             "version": "0.1.2",
-            "url": "https://codeload.github.com/eugenesvk/sublime-xonsh/zip/0.1.2",
-            "date": "2021-12-12 09:12:11"
+            "url": "https://codeload.github.com/eugenesvk/sublime-xonsh/zip/4075-4147_0.1.2",
+            "date": "2023-07-18 09:28:37"
           }
         ]
       },
@@ -170712,15 +170748,6 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4126",
-            "version": "2.0.0",
-            "url": "https://codeload.github.com/SublimeText/XSL/zip/4126-2.0.0",
-            "date": "2024-12-05 16:52:01"
-          },
-          {
-            "platforms": [
-              "*"
-            ],
             "sublime_text": "4107 - 4125",
             "version": "2.0.0",
             "url": "https://codeload.github.com/SublimeText/XSL/zip/4107-2.0.0",
@@ -170734,6 +170761,15 @@
             "version": "2.0.0",
             "url": "https://codeload.github.com/SublimeText/XSL/zip/st3-2.0.0",
             "date": "2024-12-04 17:38:20"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": ">=4126",
+            "version": "2.0.0",
+            "url": "https://codeload.github.com/SublimeText/XSL/zip/4126-2.0.0",
+            "date": "2024-12-05 16:52:01"
           }
         ]
       },
@@ -173166,9 +173202,9 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4205",
+            "sublime_text": "<3000",
             "version": "1.0.3",
-            "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.3/ST4205_DoxyDoxygen.sublime-package",
+            "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.3/ST2_DoxyDoxygen.sublime-package",
             "date": "2026-10-05 19:27:36"
           },
           {
@@ -173193,9 +173229,9 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "<3000",
+            "sublime_text": ">=4205",
             "version": "1.0.3",
-            "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.3/ST2_DoxyDoxygen.sublime-package",
+            "url": "https://github.com/20Tauri/DoxyDoxygen/releases/download/1.0.3/ST4205_DoxyDoxygen.sublime-package",
             "date": "2026-10-05 19:27:36"
           }
         ]
@@ -173442,18 +173478,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": ">=3092 <4000",
             "version": "1.0.4",
-            "url": "https://raw.githubusercontent.com/blake-regalia/linked-data.syntaxes/assets/build/sublime_4/LinkedData.sublime-package",
+            "url": "https://raw.githubusercontent.com/blake-regalia/linked-data.syntaxes/assets/build/sublime_3/LinkedData.sublime-package",
             "date": "2021-11-18 18:40:43"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3092 <4000",
+            "sublime_text": ">=4000",
             "version": "1.0.4",
-            "url": "https://raw.githubusercontent.com/blake-regalia/linked-data.syntaxes/assets/build/sublime_3/LinkedData.sublime-package",
+            "url": "https://raw.githubusercontent.com/blake-regalia/linked-data.syntaxes/assets/build/sublime_4/LinkedData.sublime-package",
             "date": "2021-11-18 18:40:43"
           }
         ]
@@ -176440,6 +176476,15 @@
               "*"
             ],
             "sublime_text": ">=4203",
+            "version": "6.3.0",
+            "url": "https://codeload.github.com/jfcherng-sublime/ST-AutoSetSyntax/zip/4203-6.3.0",
+            "date": "2026-11-07 22:17:29"
+          },
+          {
+            "platforms": [
+              "*"
+            ],
+            "sublime_text": ">=4203",
             "version": "6.2.0",
             "url": "https://codeload.github.com/jfcherng-sublime/ST-AutoSetSyntax/zip/4203-6.2.0",
             "date": "2026-09-20 14:52:45"
@@ -176452,15 +176497,6 @@
             "version": "6.1.1",
             "url": "https://codeload.github.com/jfcherng-sublime/ST-AutoSetSyntax/zip/4203-6.1.1",
             "date": "2026-08-05 19:22:14"
-          },
-          {
-            "platforms": [
-              "*"
-            ],
-            "sublime_text": ">=4203",
-            "version": "6.0.9",
-            "url": "https://codeload.github.com/jfcherng-sublime/ST-AutoSetSyntax/zip/4203-6.0.9",
-            "date": "2026-07-29 08:03:04"
           },
           {
             "platforms": [
@@ -177314,21 +177350,21 @@
         "releases": [
           {
             "platforms": [
+              "windows"
+            ],
+            "sublime_text": "<3000",
+            "version": "0.1.0",
+            "url": "https://codeload.github.com/keeganstreet/sublime-specificity/zip/windows-0.1.0",
+            "date": "2012-09-30 17:03:00"
+          },
+          {
+            "platforms": [
               "osx",
               "linux"
             ],
             "sublime_text": "<3000",
             "version": "0.1.0",
             "url": "https://codeload.github.com/keeganstreet/sublime-specificity/zip/osx-0.1.0",
-            "date": "2012-09-30 17:03:00"
-          },
-          {
-            "platforms": [
-              "windows"
-            ],
-            "sublime_text": "<3000",
-            "version": "0.1.0",
-            "url": "https://codeload.github.com/keeganstreet/sublime-specificity/zip/windows-0.1.0",
             "date": "2012-09-30 17:03:00"
           }
         ]
@@ -178505,19 +178541,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3103 - 3175",
+            "sublime_text": ">=3176",
             "version": "3.5.15",
             "url": "https://codeload.github.com/randy3k/R-Box/zip/3.5.15",
-            "date": "2018-04-21 00:00:00"
+            "date": "2018-04-21 23:24:25"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=3176",
+            "sublime_text": "3103 - 3175",
             "version": "3.5.15",
             "url": "https://codeload.github.com/randy3k/R-Box/zip/3.5.15",
-            "date": "2018-04-21 23:24:25"
+            "date": "2018-04-21 00:00:00"
           },
           {
             "platforms": [
@@ -179548,18 +179584,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3197 - 4198",
+            "sublime_text": ">=4199",
             "version": "2.2.7",
-            "url": "https://codeload.github.com/OdatNurd/OverrideAudit/zip/st3-v2.2.7",
+            "url": "https://codeload.github.com/OdatNurd/OverrideAudit/zip/v2.2.7",
             "date": "2024-02-22 04:55:11"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4199",
+            "sublime_text": "3197 - 4198",
             "version": "2.2.7",
-            "url": "https://codeload.github.com/OdatNurd/OverrideAudit/zip/v2.2.7",
+            "url": "https://codeload.github.com/OdatNurd/OverrideAudit/zip/st3-v2.2.7",
             "date": "2024-02-22 04:55:11"
           },
           {
@@ -179963,18 +179999,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3000 - 3999",
+            "sublime_text": ">=4000",
             "version": "0.4.1",
-            "url": "https://codeload.github.com/kaste/SublimeLinter-addon-goto-flash/zip/st3-0.4.1",
+            "url": "https://codeload.github.com/kaste/SublimeLinter-addon-goto-flash/zip/0.4.1",
             "date": "2023-11-14 12:04:53"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": "3000 - 3999",
             "version": "0.4.1",
-            "url": "https://codeload.github.com/kaste/SublimeLinter-addon-goto-flash/zip/0.4.1",
+            "url": "https://codeload.github.com/kaste/SublimeLinter-addon-goto-flash/zip/st3-0.4.1",
             "date": "2023-11-14 12:04:53"
           },
           {
@@ -186881,18 +186917,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": "3000 - 3999",
             "version": "2.0.2",
-            "url": "https://codeload.github.com/SublimeLinter/SublimeLinter-golangcilint/zip/2.0.2",
+            "url": "https://codeload.github.com/SublimeLinter/SublimeLinter-golangcilint/zip/st3-2.0.2",
             "date": "2021-10-25 07:38:27"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "3000 - 3999",
+            "sublime_text": ">=4000",
             "version": "2.0.2",
-            "url": "https://codeload.github.com/SublimeLinter/SublimeLinter-golangcilint/zip/st3-2.0.2",
+            "url": "https://codeload.github.com/SublimeLinter/SublimeLinter-golangcilint/zip/2.0.2",
             "date": "2021-10-25 07:38:27"
           },
           {
@@ -188175,18 +188211,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3000 - 3999",
+            "sublime_text": ">=4000",
             "version": "3.0.2",
-            "url": "https://codeload.github.com/SublimeLinter/SublimeLinter-phplint/zip/st3-3.0.2",
+            "url": "https://codeload.github.com/SublimeLinter/SublimeLinter-phplint/zip/3.0.2",
             "date": "2022-08-12 15:22:30"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": "3000 - 3999",
             "version": "3.0.2",
-            "url": "https://codeload.github.com/SublimeLinter/SublimeLinter-phplint/zip/3.0.2",
+            "url": "https://codeload.github.com/SublimeLinter/SublimeLinter-phplint/zip/st3-3.0.2",
             "date": "2022-08-12 15:22:30"
           },
           {
@@ -188747,18 +188783,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3000 - 3999",
+            "sublime_text": ">=4000",
             "version": "1.0.0",
-            "url": "https://codeload.github.com/SublimeLinter/SublimeLinter-rst/zip/st3-1.0.0",
+            "url": "https://codeload.github.com/SublimeLinter/SublimeLinter-rst/zip/1.0.0",
             "date": "2014-02-23 19:51:51"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": "3000 - 3999",
             "version": "1.0.0",
-            "url": "https://codeload.github.com/SublimeLinter/SublimeLinter-rst/zip/1.0.0",
+            "url": "https://codeload.github.com/SublimeLinter/SublimeLinter-rst/zip/st3-1.0.0",
             "date": "2014-02-23 19:51:51"
           }
         ]
@@ -189295,9 +189331,9 @@
               "*"
             ],
             "sublime_text": ">=4000",
-            "version": "6.0.3",
-            "url": "https://codeload.github.com/sublimelsp/LSP-angular/zip/v6.0.3",
-            "date": "2026-10-30 00:04:07"
+            "version": "6.0.4",
+            "url": "https://codeload.github.com/sublimelsp/LSP-angular/zip/v6.0.4",
+            "date": "2026-11-07 03:12:40"
           },
           {
             "platforms": [
@@ -189692,9 +189728,9 @@
               "*"
             ],
             "sublime_text": ">=4070",
-            "version": "2.3.6",
-            "url": "https://codeload.github.com/sublimelsp/LSP-biome/zip/2.3.6",
-            "date": "2026-11-05 00:48:45"
+            "version": "2.3.7",
+            "url": "https://codeload.github.com/sublimelsp/LSP-biome/zip/2.3.7",
+            "date": "2026-11-06 23:48:11"
           },
           {
             "platforms": [
@@ -190541,18 +190577,18 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": "3154 - 3999",
+            "sublime_text": ">=4000",
             "version": "0.0.6",
-            "url": "https://codeload.github.com/sublimelsp/LSP-eslint/zip/st3-0.0.6",
+            "url": "https://codeload.github.com/sublimelsp/LSP-eslint/zip/0.0.6",
             "date": "2020-05-10 10:07:11"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": "3154 - 3999",
             "version": "0.0.6",
-            "url": "https://codeload.github.com/sublimelsp/LSP-eslint/zip/0.0.6",
+            "url": "https://codeload.github.com/sublimelsp/LSP-eslint/zip/st3-0.0.6",
             "date": "2020-05-10 10:07:11"
           }
         ]
@@ -190655,11 +190691,11 @@
         "releases": [
           {
             "platforms": [
-              "linux-arm64"
+              "windows-x64"
             ],
             "sublime_text": ">=4148",
             "version": "1.1.7",
-            "url": "https://github.com/sublimelsp/LSP-file-watcher-rust/releases/download/1.1.7/LSP-file-watcher-rust_linux-arm64.zip",
+            "url": "https://github.com/sublimelsp/LSP-file-watcher-rust/releases/download/1.1.7/LSP-file-watcher-rust_windows-x64.zip",
             "date": "2026-10-29 20:58:35"
           },
           {
@@ -190700,11 +190736,11 @@
           },
           {
             "platforms": [
-              "windows-x64"
+              "linux-arm64"
             ],
             "sublime_text": ">=4148",
             "version": "1.1.7",
-            "url": "https://github.com/sublimelsp/LSP-file-watcher-rust/releases/download/1.1.7/LSP-file-watcher-rust_windows-x64.zip",
+            "url": "https://github.com/sublimelsp/LSP-file-watcher-rust/releases/download/1.1.7/LSP-file-watcher-rust_linux-arm64.zip",
             "date": "2026-10-29 20:58:35"
           }
         ]
@@ -190943,9 +190979,9 @@
               "*"
             ],
             "sublime_text": ">=4000",
-            "version": "1.4.6",
-            "url": "https://codeload.github.com/sublimelsp/LSP-graphql/zip/v1.4.6",
-            "date": "2026-11-05 20:10:51"
+            "version": "1.4.7",
+            "url": "https://codeload.github.com/sublimelsp/LSP-graphql/zip/v1.4.7",
+            "date": "2026-11-07 11:16:13"
           },
           {
             "platforms": [
@@ -190960,19 +190996,19 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": "3154 - 3999",
             "version": "1.2.6",
-            "url": "https://codeload.github.com/sublimelsp/LSP-graphql/zip/v1.2.6",
-            "date": "2024-02-26 08:19:51"
+            "url": "https://codeload.github.com/sublimelsp/LSP-graphql/zip/st3-1.2.6",
+            "date": "2024-02-06 21:22:30"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "3154 - 3999",
+            "sublime_text": ">=4000",
             "version": "1.2.6",
-            "url": "https://codeload.github.com/sublimelsp/LSP-graphql/zip/st3-1.2.6",
-            "date": "2024-02-06 21:22:30"
+            "url": "https://codeload.github.com/sublimelsp/LSP-graphql/zip/v1.2.6",
+            "date": "2024-02-26 08:19:51"
           }
         ]
       },
@@ -192127,9 +192163,9 @@
               "*"
             ],
             "sublime_text": ">=4132",
-            "version": "1.0.3",
-            "url": "https://codeload.github.com/sublimelsp/LSP-oxfmt/zip/1.0.3",
-            "date": "2026-11-03 15:10:51"
+            "version": "1.0.4",
+            "url": "https://codeload.github.com/sublimelsp/LSP-oxfmt/zip/1.0.4",
+            "date": "2026-11-06 23:48:10"
           }
         ]
       },
@@ -192156,9 +192192,9 @@
               "*"
             ],
             "sublime_text": ">=4132",
-            "version": "1.0.6",
-            "url": "https://codeload.github.com/sublimelsp/LSP-oxlint/zip/1.0.6",
-            "date": "2026-11-04 03:35:42"
+            "version": "1.0.7",
+            "url": "https://codeload.github.com/sublimelsp/LSP-oxlint/zip/1.0.7",
+            "date": "2026-11-06 23:46:50"
           }
         ]
       },
@@ -193511,9 +193547,9 @@
               "*"
             ],
             "sublime_text": ">=4132",
-            "version": "0.0.69",
-            "url": "https://codeload.github.com/sublimelsp/LSP-ty/zip/0.0.69",
-            "date": "2026-11-06 08:52:17"
+            "version": "0.0.70",
+            "url": "https://codeload.github.com/sublimelsp/LSP-ty/zip/0.0.70",
+            "date": "2026-11-07 03:12:36"
           }
         ]
       },
@@ -194209,9 +194245,9 @@
               "*"
             ],
             "sublime_text": ">=4000",
-            "version": "1.0.4",
-            "url": "https://codeload.github.com/sublimelsp/LSP-zuban/zip/v1.0.4",
-            "date": "2026-10-29 22:12:02"
+            "version": "1.0.5",
+            "url": "https://codeload.github.com/sublimelsp/LSP-zuban/zip/v1.0.5",
+            "date": "2026-11-07 11:18:47"
           }
         ]
       }
@@ -195513,17 +195549,17 @@
             "platforms": [
               "*"
             ],
-            "sublime_text": ">=4000",
+            "sublime_text": "3114 - 3999",
             "version": "0.9.15",
-            "url": "https://codeload.github.com/evandroforks/concurrentloghandler/zip/0.9.15"
+            "url": "https://codeload.github.com/evandroforks/concurrentloghandler/zip/st3-0.9.15"
           },
           {
             "platforms": [
               "*"
             ],
-            "sublime_text": "3114 - 3999",
+            "sublime_text": ">=4000",
             "version": "0.9.15",
-            "url": "https://codeload.github.com/evandroforks/concurrentloghandler/zip/st3-0.9.15"
+            "url": "https://codeload.github.com/evandroforks/concurrentloghandler/zip/0.9.15"
           }
         ]
       },
@@ -195868,17 +195904,17 @@
           },
           {
             "platforms": [
-              "osx"
+              "linux"
             ],
-            "sublime_text": ">=3000",
+            "sublime_text": "*",
             "version": "1.0.0",
             "url": "https://codeload.github.com/codexns/sublime-multiprocessing/zip/1.0.0"
           },
           {
             "platforms": [
-              "linux"
+              "osx"
             ],
-            "sublime_text": "*",
+            "sublime_text": ">=3000",
             "version": "1.0.0",
             "url": "https://codeload.github.com/codexns/sublime-multiprocessing/zip/1.0.0"
           }
@@ -196692,18 +196728,18 @@
         "releases": [
           {
             "platforms": [
-              "osx"
+              "windows",
+              "linux"
             ],
-            "sublime_text": ">=3000",
+            "sublime_text": "*",
             "version": "1.0.1",
             "url": "https://codeload.github.com/codexns/sublime-sqlite3/zip/1.0.1"
           },
           {
             "platforms": [
-              "windows",
-              "linux"
+              "osx"
             ],
-            "sublime_text": "*",
+            "sublime_text": ">=3000",
             "version": "1.0.1",
             "url": "https://codeload.github.com/codexns/sublime-sqlite3/zip/1.0.1"
           }

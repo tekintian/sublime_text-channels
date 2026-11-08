@@ -485,30 +485,30 @@
         "name": "bracex",
         "releases": [
           {
-            "date": "2026-11-03 14:13:42",
+            "date": "2026-11-07 21:28:24",
             "platforms": [
               "*"
             ],
             "python_versions": [
               "3.13"
             ],
-            "sha256": "e8622d46b60ef6062b4091033f97a304e1b205e70c0285743c5038b73886a47e",
+            "sha256": "284d59c4656e5a0421ff691402074bd5847049d50410535764a2c522a47095bc",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/47/ae/30dd8b027b4032b27e81364de5b74bfbef50b3c84c6aa0ead351bbb3749c/bracex-3.2.1-py3-none-any.whl",
-            "version": "3.2.1"
+            "url": "https://files.pythonhosted.org/packages/21/b5/52a750a062db07ba056cde1c52c802b898a96b70953389a0b2247e18f210/bracex-3.2.2-py3-none-any.whl",
+            "version": "3.2.2"
           },
           {
-            "date": "2026-11-03 14:13:42",
+            "date": "2026-11-07 21:28:24",
             "platforms": [
               "*"
             ],
             "python_versions": [
               "3.14"
             ],
-            "sha256": "e8622d46b60ef6062b4091033f97a304e1b205e70c0285743c5038b73886a47e",
+            "sha256": "284d59c4656e5a0421ff691402074bd5847049d50410535764a2c522a47095bc",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/47/ae/30dd8b027b4032b27e81364de5b74bfbef50b3c84c6aa0ead351bbb3749c/bracex-3.2.1-py3-none-any.whl",
-            "version": "3.2.1"
+            "url": "https://files.pythonhosted.org/packages/21/b5/52a750a062db07ba056cde1c52c802b898a96b70953389a0b2247e18f210/bracex-3.2.2-py3-none-any.whl",
+            "version": "3.2.2"
           },
           {
             "date": "2024-09-28 21:41:21",
@@ -6873,160 +6873,160 @@
         "name": "regex",
         "releases": [
           {
-            "date": "2026-09-29 00:47:32",
+            "date": "2026-11-06 19:54:35",
             "platforms": [
               "windows-x64"
             ],
             "python_versions": [
               "3.13"
             ],
-            "sha256": "61956f074ecd123f55adca68ee3eab46e6a07ad3f8e64e6db95dfacb444f55c4",
+            "sha256": "0e97ced8b122b6f2e2a9435762a0f305383bbcce7a166aa5df6e4b9a28a6a2f3",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/80/a7/bf93a3a6afa5f7bc16b7afb94ae581b01cae620b8ad56bd8f9572a985959/regex-2026.9.29-cp313-cp313-win_amd64.whl",
-            "version": "2026.9.29"
+            "url": "https://files.pythonhosted.org/packages/59/5d/41a134b2483f3a491b25f9eff006db2003d0f2cbc4d9354363b388ab7994/regex-2026.11.7-cp313-cp313-win_amd64.whl",
+            "version": "2026.11.7"
           },
           {
-            "date": "2026-09-29 00:48:03",
+            "date": "2026-11-06 19:54:56",
             "platforms": [
               "windows-x64"
             ],
             "python_versions": [
               "3.14"
             ],
-            "sha256": "1c2a0026062abcc321a53db4a185ceba0b59a66b5d37b0808917a88b55a5257f",
+            "sha256": "5683e6901d1f0b091d4e222b590b01c2f463aa46133b4eec4b4d0ace37422526",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/31/e2/c2b466924ccbeb874862968ca638051b15a8fd29d994a0e99004a5cbf78e/regex-2026.9.29-cp314-cp314-win_amd64.whl",
-            "version": "2026.9.29"
+            "url": "https://files.pythonhosted.org/packages/a7/77/dbd8dca95660850a24093fcdb151bdd1939de5ad738d9b676fc4e71547ee/regex-2026.11.7-cp314-cp314-win_amd64.whl",
+            "version": "2026.11.7"
           },
           {
-            "date": "2026-09-29 00:47:31",
+            "date": "2026-11-06 19:54:34",
             "platforms": [
               "windows-x32"
             ],
             "python_versions": [
               "3.13"
             ],
-            "sha256": "4d7d93613b01b0199961330e49cfc52d479b3d5776c56c691db31130c0a07d91",
+            "sha256": "70b44d9b26811060d7846082e46a94b34e950babec7996c8e8e9c5efff392c62",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/ae/c7/d5a8c13a613facb03e0fb55c1ebaaf7bb35d8e2c1abe8bef8dca809fc1d9/regex-2026.9.29-cp313-cp313-win32.whl",
-            "version": "2026.9.29"
+            "url": "https://files.pythonhosted.org/packages/99/01/e20b3a569a7191cf3f0334fec01ef78e6e3a93a566229d439f345db2fdda/regex-2026.11.7-cp313-cp313-win32.whl",
+            "version": "2026.11.7"
           },
           {
-            "date": "2026-09-29 00:48:01",
+            "date": "2026-11-06 19:54:54",
             "platforms": [
               "windows-x32"
             ],
             "python_versions": [
               "3.14"
             ],
-            "sha256": "c6c8fabf1dafc1f1ddcbb67896d3f93efb092e8c4b6322d7389b944e76a484e5",
+            "sha256": "6006481336fc3886ad96b9f7041424e426f265b298dab3dd41fca7d2f254b461",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/fb/d3/fc865a4638d9f6762192b6bab5b7aa1f33a90e9e99578c2e111e2a63c8c3/regex-2026.9.29-cp314-cp314-win32.whl",
-            "version": "2026.9.29"
+            "url": "https://files.pythonhosted.org/packages/06/17/b3f1b261a2d5897ce2bc59c8c469ccf2a985c164b5479d491a13a4b09ee7/regex-2026.11.7-cp314-cp314-win32.whl",
+            "version": "2026.11.7"
           },
           {
-            "date": "2026-09-29 00:47:09",
+            "date": "2026-11-06 19:54:17",
             "platforms": [
               "osx-x64"
             ],
             "python_versions": [
               "3.13"
             ],
-            "sha256": "f0fe9834e5aeccaf19a0d8feb296d66a24be1a7c9922002f842a682cd5abb787",
+            "sha256": "87b055a04d968001bb842eb6138c08abda23f5f7a6ee97807f0c4e8ecc4dc1ac",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/00/71/c87fc7a2e21a42f9d57489db32951c37eef56d153840459a80d464f0321d/regex-2026.9.29-cp313-cp313-macosx_10_13_x86_64.whl",
-            "version": "2026.9.29"
+            "url": "https://files.pythonhosted.org/packages/6c/f8/048b903ab93db2c1a4a95dfe8db01a931551014d1038bed6b3ec1a01f88c/regex-2026.11.7-cp313-cp313-macosx_10_13_x86_64.whl",
+            "version": "2026.11.7"
           },
           {
-            "date": "2026-09-29 00:47:38",
+            "date": "2026-11-06 19:54:38",
             "platforms": [
               "osx-x64"
             ],
             "python_versions": [
               "3.14"
             ],
-            "sha256": "c9b602fae1e00b7c035d661ce85575365719192a7b46784bd71cf64c68053aa0",
+            "sha256": "4d9a6bde9124bcee12d56ced350153784b35449eaf9654aa529225a1970ddee3",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/9c/83/9b693a3fd1451381e812031a8961ec5b3b8f0c8cc6871f14c5223642804d/regex-2026.9.29-cp314-cp314-macosx_10_15_x86_64.whl",
-            "version": "2026.9.29"
+            "url": "https://files.pythonhosted.org/packages/08/96/14a7446b47b469a7dbde160ed2803383714447be487bdd8a83a3a21a943e/regex-2026.11.7-cp314-cp314-macosx_10_15_x86_64.whl",
+            "version": "2026.11.7"
           },
           {
-            "date": "2026-09-29 00:47:11",
+            "date": "2026-11-06 19:54:18",
             "platforms": [
               "osx-arm64"
             ],
             "python_versions": [
               "3.13"
             ],
-            "sha256": "c90fcf7804ea0a54b896ce0f2b9565350220b8d4890fd0db461a476a4c687963",
+            "sha256": "2383ebbd0802cbe6a3523f0358d08a3e9a98477ce9db06133c1e3b4bbbc20825",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/11/9e/aa0f4cde3bc4688c1d58b0cd8415edd708339bc0bc401a195b0b1e8c8f0c/regex-2026.9.29-cp313-cp313-macosx_11_0_arm64.whl",
-            "version": "2026.9.29"
+            "url": "https://files.pythonhosted.org/packages/2c/c7/bdb64d232b30c90af477b6537e3aa2f0c0fab3bc4d0c1043742cd5671348/regex-2026.11.7-cp313-cp313-macosx_11_0_arm64.whl",
+            "version": "2026.11.7"
           },
           {
-            "date": "2026-09-29 00:47:39",
+            "date": "2026-11-06 19:54:40",
             "platforms": [
               "osx-arm64"
             ],
             "python_versions": [
               "3.14"
             ],
-            "sha256": "0166844493626c5015c6088ee15c9ca2fd060ca15b7641d1657da6a58432ae33",
+            "sha256": "1d882e2ad9d3f9c9dd6a0673b45339a9b99a7a4d0f6b84639528b907b40449cc",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/dd/5f/52bc2abc3fef040cd9de76ab29c918d6a717a454ae2b9dd7938b0c95656d/regex-2026.9.29-cp314-cp314-macosx_11_0_arm64.whl",
-            "version": "2026.9.29"
+            "url": "https://files.pythonhosted.org/packages/30/07/1a10d1b774ea26d69452fed2901c2e41a7027dbe77ff0d6c0ca1f9463796/regex-2026.11.7-cp314-cp314-macosx_11_0_arm64.whl",
+            "version": "2026.11.7"
           },
           {
-            "date": "2026-09-29 00:47:18",
+            "date": "2026-11-06 19:54:23",
             "platforms": [
               "linux-x64"
             ],
             "python_versions": [
               "3.13"
             ],
-            "sha256": "d49c18f1ea294cf4adde2e5ac256e98c82ea9d708462ce4bf799dffa7cfe8a2c",
+            "sha256": "be6bc581aa4f7e254a10c95940df8a48ab9bc6e503c29343d44a8d7224f4e4c5",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/9a/8e/c1ed81f55f992f6aa0b699a592a50c1ce9e6d44ff1aee2c14c0537dcef9c/regex-2026.9.29-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
-            "version": "2026.9.29"
+            "url": "https://files.pythonhosted.org/packages/aa/5b/0daf3aa770b88edb3bf20c691f1357bfb77ad0aa16006956f2e2f7eb4ba3/regex-2026.11.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "version": "2026.11.7"
           },
           {
-            "date": "2026-09-29 00:47:47",
+            "date": "2026-11-06 19:54:45",
             "platforms": [
               "linux-x64"
             ],
             "python_versions": [
               "3.14"
             ],
-            "sha256": "2f7f7aa47b229f2b39a2ae2596d2ad5625d77b5eb9856fac2dab3eb506cdd0a0",
+            "sha256": "49d4321c914eba6e97b18eddaeb4cd287188ac0dd9bb245313c95a3688e5955b",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/a9/4d/041d9458a645fee4fce4d642a89d27271a3cfcd91095104f6dde44da70bf/regex-2026.9.29-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
-            "version": "2026.9.29"
+            "url": "https://files.pythonhosted.org/packages/d1/0f/5e8c0c5ae403ef63e73e266c5343e43ae66863779c51ccec66b3f4d946ee/regex-2026.11.7-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "version": "2026.11.7"
           },
           {
-            "date": "2026-09-29 00:47:13",
+            "date": "2026-11-06 19:54:19",
             "platforms": [
               "linux-arm64"
             ],
             "python_versions": [
               "3.13"
             ],
-            "sha256": "e11edba5bc344a32b029a7af9d4b3173982dd79eeafa0b9dbd787364414b0509",
+            "sha256": "5df05bbe9ab5325d3273a6284c6a995e068f63229e1cea0f77697dff82073ca2",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/90/d4/e835c487850ed922a8d6074f953b888c8ea99775c76b9ed5f8a4d72eab92/regex-2026.9.29-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
-            "version": "2026.9.29"
+            "url": "https://files.pythonhosted.org/packages/f0/f4/c28e36d5e01ba79649016767d3829eb980e16876e6615eb3331fdfc09cb2/regex-2026.11.7-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+            "version": "2026.11.7"
           },
           {
-            "date": "2026-09-29 00:47:41",
+            "date": "2026-11-06 19:54:41",
             "platforms": [
               "linux-arm64"
             ],
             "python_versions": [
               "3.14"
             ],
-            "sha256": "b97a38fb4c732b6832db6bf108963adbcd82ef1268ba2025dce390f45af75efa",
+            "sha256": "0cb46318ae906a8eaf00d231c92183971953ec4252f945373c8161e091e07e7c",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/dc/fc/cf50671215ee0057046980b4571ef8646a005819bb67f0957e779ed107a5/regex-2026.9.29-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
-            "version": "2026.9.29"
+            "url": "https://files.pythonhosted.org/packages/a3/83/ea1c5bc83aa433f18ccd9d115407a0ced21487c11e7bf0944400f974f125/regex-2026.11.7-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+            "version": "2026.11.7"
           },
           {
             "date": "2024-11-06 20:11:50",
@@ -8711,134 +8711,134 @@
         "name": "tree-sitter-language-pack",
         "releases": [
           {
-            "date": "2026-11-05 18:02:13",
+            "date": "2026-11-06 22:02:56",
             "platforms": [
               "windows-x64"
             ],
             "python_versions": [
               "3.13"
             ],
-            "sha256": "e08e76a19eeabc4e8203934a7dd9a3af15552c469b1cf92d7397493cb2d5e27f",
+            "sha256": "b353f9e311f222b004606ddfa6f573d878872287a3038fe5cc1a09a2648da901",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/75/f4/2c3fe5045c15fdc15fd09a73546cb3a62510e81f3ca144331f8741adcbc8/tree_sitter_language_pack-1.24.0-cp311-abi3-win_amd64.whl",
-            "version": "1.24.0"
+            "url": "https://files.pythonhosted.org/packages/a1/08/5388ece342a19f56124d565ec771453169387afcacc52a8cf9edfc17d4f2/tree_sitter_language_pack-1.25.0-cp311-abi3-win_amd64.whl",
+            "version": "1.25.0"
           },
           {
-            "date": "2026-11-05 18:02:13",
+            "date": "2026-11-06 22:02:56",
             "platforms": [
               "windows-x64"
             ],
             "python_versions": [
               "3.14"
             ],
-            "sha256": "e08e76a19eeabc4e8203934a7dd9a3af15552c469b1cf92d7397493cb2d5e27f",
+            "sha256": "b353f9e311f222b004606ddfa6f573d878872287a3038fe5cc1a09a2648da901",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/75/f4/2c3fe5045c15fdc15fd09a73546cb3a62510e81f3ca144331f8741adcbc8/tree_sitter_language_pack-1.24.0-cp311-abi3-win_amd64.whl",
-            "version": "1.24.0"
+            "url": "https://files.pythonhosted.org/packages/a1/08/5388ece342a19f56124d565ec771453169387afcacc52a8cf9edfc17d4f2/tree_sitter_language_pack-1.25.0-cp311-abi3-win_amd64.whl",
+            "version": "1.25.0"
           },
           {
-            "date": "2026-11-05 18:02:07",
+            "date": "2026-11-06 22:02:52",
             "platforms": [
               "osx-x64"
             ],
             "python_versions": [
               "3.13"
             ],
-            "sha256": "bcae1d553b7c8f40f8a23bd29b192f178995c9e5f11a976f38fe89c4df1ca188",
+            "sha256": "d29fc400eb0e95a7d5bbaf7a3abe8daff379183c6103bb80a66c9ddd9a2abaa0",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/ff/34/cf7d3cbb7f60a3fd1d474d7796c7d46c3dd518848f84c1b219149b4b5830/tree_sitter_language_pack-1.24.0-cp311-abi3-macosx_26_0_x86_64.whl",
-            "version": "1.24.0"
+            "url": "https://files.pythonhosted.org/packages/5f/e5/a58a8b634da966cd18d63d9d74422e6e0dbfebeb417cd8ba8b7085390b8e/tree_sitter_language_pack-1.25.0-cp311-abi3-macosx_15_0_x86_64.whl",
+            "version": "1.25.0"
           },
           {
-            "date": "2026-11-05 18:02:07",
+            "date": "2026-11-06 22:02:52",
             "platforms": [
               "osx-x64"
             ],
             "python_versions": [
               "3.14"
             ],
-            "sha256": "bcae1d553b7c8f40f8a23bd29b192f178995c9e5f11a976f38fe89c4df1ca188",
+            "sha256": "d29fc400eb0e95a7d5bbaf7a3abe8daff379183c6103bb80a66c9ddd9a2abaa0",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/ff/34/cf7d3cbb7f60a3fd1d474d7796c7d46c3dd518848f84c1b219149b4b5830/tree_sitter_language_pack-1.24.0-cp311-abi3-macosx_26_0_x86_64.whl",
-            "version": "1.24.0"
+            "url": "https://files.pythonhosted.org/packages/5f/e5/a58a8b634da966cd18d63d9d74422e6e0dbfebeb417cd8ba8b7085390b8e/tree_sitter_language_pack-1.25.0-cp311-abi3-macosx_15_0_x86_64.whl",
+            "version": "1.25.0"
           },
           {
-            "date": "2026-11-05 18:02:05",
+            "date": "2026-11-06 22:02:50",
             "platforms": [
               "osx-arm64"
             ],
             "python_versions": [
               "3.13"
             ],
-            "sha256": "34fbf193db44952ca7aa0c650b01736b6bec8fb31f9b98e8beed6cfe006b7d14",
+            "sha256": "537d5237a1392cd665ccd82d45eb4b3697d1094e99fc0d5f366feafcc6f95aff",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/f6/5d/739eca67cef6e6ab05c0207ec8f67de93cf7937cf4669aefcb2a210bde46/tree_sitter_language_pack-1.24.0-cp311-abi3-macosx_26_0_arm64.whl",
-            "version": "1.24.0"
+            "url": "https://files.pythonhosted.org/packages/09/b1/de2ee1ed563363751efeedb1982dddaf2b9f061b751a589657816e83e17d/tree_sitter_language_pack-1.25.0-cp311-abi3-macosx_15_0_arm64.whl",
+            "version": "1.25.0"
           },
           {
-            "date": "2026-11-05 18:02:05",
+            "date": "2026-11-06 22:02:50",
             "platforms": [
               "osx-arm64"
             ],
             "python_versions": [
               "3.14"
             ],
-            "sha256": "34fbf193db44952ca7aa0c650b01736b6bec8fb31f9b98e8beed6cfe006b7d14",
+            "sha256": "537d5237a1392cd665ccd82d45eb4b3697d1094e99fc0d5f366feafcc6f95aff",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/f6/5d/739eca67cef6e6ab05c0207ec8f67de93cf7937cf4669aefcb2a210bde46/tree_sitter_language_pack-1.24.0-cp311-abi3-macosx_26_0_arm64.whl",
-            "version": "1.24.0"
+            "url": "https://files.pythonhosted.org/packages/09/b1/de2ee1ed563363751efeedb1982dddaf2b9f061b751a589657816e83e17d/tree_sitter_language_pack-1.25.0-cp311-abi3-macosx_15_0_arm64.whl",
+            "version": "1.25.0"
           },
           {
-            "date": "2026-11-05 18:02:11",
+            "date": "2026-11-06 22:02:54",
             "platforms": [
               "linux-x64"
             ],
             "python_versions": [
               "3.13"
             ],
-            "sha256": "b3e7b5e12e4b1db5deb7cdbb98bb046841b7177eaf01fc6c47580496c146e419",
+            "sha256": "8dc0dcdf9ec0570c4b25fc81061c2b1f3e14d90703b3aeb4acc894c55d036ac3",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/58/65/3d0542c6298495305e73ba74a0b0e978eb5c8d2a8f5ec8c164d1067ff01d/tree_sitter_language_pack-1.24.0-cp311-abi3-manylinux_2_34_x86_64.whl",
-            "version": "1.24.0"
+            "url": "https://files.pythonhosted.org/packages/77/fb/9570562cfcc41eb49ce2ea1fb3920d75c4b28c0d6f9de71707ff951cc9b8/tree_sitter_language_pack-1.25.0-cp311-abi3-manylinux_2_34_x86_64.whl",
+            "version": "1.25.0"
           },
           {
-            "date": "2026-11-05 18:02:11",
+            "date": "2026-11-06 22:02:54",
             "platforms": [
               "linux-x64"
             ],
             "python_versions": [
               "3.14"
             ],
-            "sha256": "b3e7b5e12e4b1db5deb7cdbb98bb046841b7177eaf01fc6c47580496c146e419",
+            "sha256": "8dc0dcdf9ec0570c4b25fc81061c2b1f3e14d90703b3aeb4acc894c55d036ac3",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/58/65/3d0542c6298495305e73ba74a0b0e978eb5c8d2a8f5ec8c164d1067ff01d/tree_sitter_language_pack-1.24.0-cp311-abi3-manylinux_2_34_x86_64.whl",
-            "version": "1.24.0"
+            "url": "https://files.pythonhosted.org/packages/77/fb/9570562cfcc41eb49ce2ea1fb3920d75c4b28c0d6f9de71707ff951cc9b8/tree_sitter_language_pack-1.25.0-cp311-abi3-manylinux_2_34_x86_64.whl",
+            "version": "1.25.0"
           },
           {
-            "date": "2026-11-05 18:02:09",
+            "date": "2026-11-06 22:02:53",
             "platforms": [
               "linux-arm64"
             ],
             "python_versions": [
               "3.13"
             ],
-            "sha256": "047f46f961b0279c2999cea86d46282f8ea210e45750821f195d9f6675ce2457",
+            "sha256": "5b42dd79f23e6641e0c9f0e37776a84c7c2d304bf0b342fc52f7d1548108bfd0",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/11/d5/084dc40a7bc20a2c54da435801779f0d20bc43fa696edf2056b8754d2c19/tree_sitter_language_pack-1.24.0-cp311-abi3-manylinux_2_34_aarch64.whl",
-            "version": "1.24.0"
+            "url": "https://files.pythonhosted.org/packages/11/e2/872d47b9ee56d038e29d98b278bdd2a80ceb7898a0932ac0a5206238ebfd/tree_sitter_language_pack-1.25.0-cp311-abi3-manylinux_2_34_aarch64.whl",
+            "version": "1.25.0"
           },
           {
-            "date": "2026-11-05 18:02:09",
+            "date": "2026-11-06 22:02:53",
             "platforms": [
               "linux-arm64"
             ],
             "python_versions": [
               "3.14"
             ],
-            "sha256": "047f46f961b0279c2999cea86d46282f8ea210e45750821f195d9f6675ce2457",
+            "sha256": "5b42dd79f23e6641e0c9f0e37776a84c7c2d304bf0b342fc52f7d1548108bfd0",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/11/d5/084dc40a7bc20a2c54da435801779f0d20bc43fa696edf2056b8754d2c19/tree_sitter_language_pack-1.24.0-cp311-abi3-manylinux_2_34_aarch64.whl",
-            "version": "1.24.0"
+            "url": "https://files.pythonhosted.org/packages/11/e2/872d47b9ee56d038e29d98b278bdd2a80ceb7898a0932ac0a5206238ebfd/tree_sitter_language_pack-1.25.0-cp311-abi3-manylinux_2_34_aarch64.whl",
+            "version": "1.25.0"
           }
         ]
       },
@@ -9596,30 +9596,30 @@
         "name": "wcmatch",
         "releases": [
           {
-            "date": "2026-11-03 14:23:46",
+            "date": "2026-11-07 21:45:35",
             "platforms": [
               "*"
             ],
             "python_versions": [
               "3.13"
             ],
-            "sha256": "46f7965313cfe65d8be049ab91095a5908be96ebb43e5d16da608b158825113c",
+            "sha256": "0e11b0bf1700bc8222ad5e7dc79fb326d9e0304458c7e2c25419ab6d26d07d8e",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/22/8d/fb9b889e282a73e4423bd10f1ac358dd68b3e78fd099fab17f270a482157/wcmatch-12.0-py3-none-any.whl",
-            "version": "12.0"
+            "url": "https://files.pythonhosted.org/packages/8a/24/8a5bbb3e73962b5bc901966f926b4fe25cbc9d1170ad9b4d9938441dbdc3/wcmatch-12.0.1-py3-none-any.whl",
+            "version": "12.0.1"
           },
           {
-            "date": "2026-11-03 14:23:46",
+            "date": "2026-11-07 21:45:35",
             "platforms": [
               "*"
             ],
             "python_versions": [
               "3.14"
             ],
-            "sha256": "46f7965313cfe65d8be049ab91095a5908be96ebb43e5d16da608b158825113c",
+            "sha256": "0e11b0bf1700bc8222ad5e7dc79fb326d9e0304458c7e2c25419ab6d26d07d8e",
             "sublime_text": "*",
-            "url": "https://files.pythonhosted.org/packages/22/8d/fb9b889e282a73e4423bd10f1ac358dd68b3e78fd099fab17f270a482157/wcmatch-12.0-py3-none-any.whl",
-            "version": "12.0"
+            "url": "https://files.pythonhosted.org/packages/8a/24/8a5bbb3e73962b5bc901966f926b4fe25cbc9d1170ad9b4d9938441dbdc3/wcmatch-12.0.1-py3-none-any.whl",
+            "version": "12.0.1"
           },
           {
             "date": "2024-09-26 18:39:51",
