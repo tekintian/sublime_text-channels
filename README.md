@@ -1,0 +1,15 @@
+#  sublime_text channels mirror channel_v3.json channel_v4.json
+
+
+
+https://packagecontrol.github.io/channel/channel_v4.json
+https://packagecontrol.io/channel_v3.json
+
+
+
+
+
+
+
+
+
