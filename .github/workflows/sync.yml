@@ -18,14 +18,15 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  GITEE_REPO: ${{ vars.GITEE_REPO || 'https://gitee.com/tekintian/sublime_text-channels.git' }}
+  CODEBERG_HOST: codeberg.org
+  CODEBERG_REPO: ${{ vars.CODEBERG_REPO || 'tekintian/sublime_text-channels' }}
   TZ: Asia/Shanghai
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    environment: gitee-mirror
+    environment: codeberg-mirror
     steps:
       - name: Checkout mirror repository
         uses: actions/checkout@v4
@@ -39,27 +40,28 @@ jobs:
 
       - name: Resolve target repository
         run: |
-          repo="${GITEE_REPO}"
+          repo="${CODEBERG_REPO}"
           repo="${repo#https://}"
           repo="${repo#http://}"
+          repo="${repo#ssh://}"
           repo="${repo#*@}"
-          repo="${repo#gitee.com/}"
-          repo="${repo#gitee.com:}"
+          repo="${repo#${CODEBERG_HOST}/}"
+          repo="${repo#${CODEBERG_HOST}:}"
+          repo="${repo#/}"
           repo="${repo%.git}"
           repo="${repo%/}"
-          echo "GITEE_SLUG=${repo}" >> "$GITHUB_ENV"
-          echo "target https://gitee.com/${repo}.git"
+          echo "CODEBERG_SLUG=${repo}" >> "$GITHUB_ENV"
+          echo "target ssh://git@${CODEBERG_HOST}/${repo}.git"
 
       - name: Check credentials
         env:
-          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          CODEBERG_SSH_KEY: ${{ secrets.CODEBERG_SSH_KEY }}
         run: |
-          if [ -z "${GITEE_TOKEN:-}" ]; then
-            echo "::error::GITEE_TOKEN is empty. Add it as an environment secret on environment 'gitee-mirror' or as a repository secret."
+          if [ -z "${CODEBERG_SSH_KEY:-}" ]; then
+            echo "::error::CODEBERG_SSH_KEY is empty. Add it as an environment secret on environment 'codeberg-mirror' or as a repository secret."
             exit 1
           fi
-          echo "::add-mask::${GITEE_TOKEN}"
-          echo "GITEE_TOKEN is present"
+          echo "CODEBERG_SSH_KEY is present"
 
       - name: Sync upstream channels and merge overrides
         run: python3 scripts/sync_channels.py
@@ -95,14 +97,25 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Push to gitee
-        if: steps.commit.outputs.changed == 'true' || inputs.force
+      - name: Setup SSH
         env:
-          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          CODEBERG_SSH_KEY: ${{ secrets.CODEBERG_SSH_KEY }}
         run: |
-          echo "::add-mask::${GITEE_TOKEN}"
-          git remote set-url origin "https://oauth2:${GITEE_TOKEN}@gitee.com/${GITEE_SLUG}.git"
-          git push origin HEAD:main 2>&1 | sed -E "s#//[^@]*@#//***@#g"
+          mkdir -p ~/.ssh
+          printf '%s\n' "$CODEBERG_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 700 ~/.ssh
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -t ed25519 "${CODEBERG_HOST}" >> ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+          ssh -o StrictHostKeyChecking=yes -i ~/.ssh/id_ed25519 -T "git@${CODEBERG_HOST}" || true
+
+      - name: Push to Codeberg
+        if: steps.commit.outputs.changed == 'true' || inputs.force
+        run: |
+          git remote add codeberg "ssh://git@${CODEBERG_HOST}/${CODEBERG_SLUG}.git" 2>/dev/null \
+            || git remote set-url codeberg "ssh://git@${CODEBERG_HOST}/${CODEBERG_SLUG}.git"
+          GIT_SSH_COMMAND="ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=yes" \
+            git push codeberg HEAD:main --force
 
       - name: Summary
         if: always()
@@ -111,6 +124,6 @@ jobs:
             echo "### channel mirror sync"
             echo "- upstream v3: https://packagecontrol.io/channel_v3.json"
             echo "- upstream v4: https://packagecontrol.github.io/channel/channel_v4.json"
-            echo "- target: https://gitee.com/${GITEE_SLUG}.git"
+            echo "- target: ssh://git@${CODEBERG_HOST}/${CODEBERG_SLUG}.git"
             echo "- changed: ${{ steps.commit.outputs.changed }}"
           } >> "$GITHUB_STEP_SUMMARY"

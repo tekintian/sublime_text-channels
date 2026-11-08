@@ -2,8 +2,43 @@
   "$schema": "sublime://packagecontrol.io/schemas/channel",
   "schema_version": "4.0.0",
   "repositories": [
-    "https://raw.githubusercontent.com/packagecontrol/channel/main/repository.json"
+    "https://raw.githubusercontent.com/tekintian/MySideBar/main/packages.json"
   ],
-  "packages_cache": {},
+  "packages_cache": {
+    "https://raw.githubusercontent.com/tekintian/MySideBar/main/packages.json": [
+      {
+        "name": "MySideBar",
+        "description": "Sidebar enhanced plugin: file tree, GBK/encoding detection and conversion, i18n",
+        "details": "https://github.com/tekintian/MySideBar",
+        "homepage": "https://github.com/tekintian/MySideBar",
+        "issues": "https://github.com/tekintian/MySideBar/issues",
+        "authors": [
+          "tekintian <tekintian@gmail.com>"
+        ],
+        "labels": [
+          "sidebar",
+          "encoding",
+          "gbk",
+          "chinese",
+          "file management",
+          "i18n"
+        ],
+        "previous_names": [],
+        "readme": "https://raw.githubusercontent.com/tekintian/MySideBar/main/README.md",
+        "releases": [
+          {
+            "sublime_text": ">=4000",
+            "platforms": [
+              "*"
+            ],
+            "version": "1.0.0",
+            "url": "https://github.com/tekintian/MySideBar/releases/download/v1.0.0/MySideBar-1.0.0.zip",
+            "date": "2026-11-06 00:00:00",
+            "sha256": ""
+          }
+        ]
+      }
+    ]
+  },
   "libraries_cache": {}
 }

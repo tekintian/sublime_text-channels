@@ -1,7 +1,7 @@
 {
   "schema_version": "3.0.0",
   "repositories": [
-    "https://raw.githubusercontent.com/packagecontrol/channel/main/repository.json",
+    "https://raw.githubusercontent.com/tekintian/MySideBar/main/packages.json",
     "http://digitalparticle.in.th/sublime/packages.json",
     "http://dist.boltjs.io/packages.json",
     "https://bitbucket.org/jjones028/p4sublime/raw/tip/packages.json",
@@ -126,7 +126,7 @@
     "https://tobygiacometti.com/sublime/packages.json"
   ],
   "packages_cache": {
-    "https://raw.githubusercontent.com/packagecontrol/channel/main/repository.json": [
+    "https://raw.githubusercontent.com/tekintian/MySideBar/main/packages.json": [
       {
         "name": "MySideBar",
         "description": "Sidebar enhanced plugin: file tree, GBK/encoding detection and conversion, i18n",

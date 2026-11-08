@@ -1,10 +1,10 @@
 {
   "schema_version": "3.0.0",
   "repositories": [
-    "https://raw.githubusercontent.com/packagecontrol/channel/main/repository.json"
+    "https://raw.githubusercontent.com/tekintian/MySideBar/main/packages.json"
   ],
   "packages_cache": {
-    "https://raw.githubusercontent.com/packagecontrol/channel/main/repository.json": [
+    "https://raw.githubusercontent.com/tekintian/MySideBar/main/packages.json": [
       {
         "name": "MySideBar",
         "description": "Sidebar enhanced plugin: file tree, GBK/encoding detection and conversion, i18n",
