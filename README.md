@@ -50,10 +50,10 @@ scripts/sync_channels.py   # 拉取 + 合并 + 去重的同步脚本（仅 Pytho
 
 `.github/workflows/sync.yml` 每天 UTC 02:00（北京时间 10:00）执行，也支持手动触发。
 
-配置：
+配置（本工作流使用 **Environment `gitee-mirror`**，secret 需配在该环境下）：
 
-- Secret `GITEE_TOKEN`：Gitee 私人令牌（需 `projects` 权限），仅通过环境变量注入，不写入文件与日志；
-- 变量 `GITEE_REPO`：目标仓库完整地址，如 `https://gitee.com/tekintian/sublime_text-channels.git`（默认即此值，脚本会自动解析出 `owner/repo`，也兼容 `owner/repo` 简写与 SSH 地址）。
+- Environment `gitee-mirror` 下的 Secret `GITEE_TOKEN`：Gitee 私人令牌（需 `projects` 权限），仅通过环境变量注入，不写入文件与日志；
+- 该环境下的变量 `GITEE_REPO`：目标仓库完整地址，默认为 `https://gitee.com/tekintian/sublime_text-channels.git`；脚本会自动解析出 `owner/repo`，同时兼容 `owner/repo` 简写与 SSH 地址。
 
 同步流程：拉取官方源（带重试、完整性校验、非严格 JSON 修复）→ 合并 `overrides/` → 校验产物（条目数骤降 20% 以上即拒绝发布）→ 有变化才提交 → 推送 gitee。
 

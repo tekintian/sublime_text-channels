@@ -25,6 +25,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    environment: gitee-mirror
     steps:
       - name: Checkout mirror repository
         uses: actions/checkout@v4
@@ -48,6 +49,17 @@ jobs:
           repo="${repo%/}"
           echo "GITEE_SLUG=${repo}" >> "$GITHUB_ENV"
           echo "target https://gitee.com/${repo}.git"
+
+      - name: Check credentials
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: |
+          if [ -z "${GITEE_TOKEN:-}" ]; then
+            echo "::error::GITEE_TOKEN is empty. Add it as an environment secret on environment 'gitee-mirror' or as a repository secret."
+            exit 1
+          fi
+          echo "::add-mask::${GITEE_TOKEN}"
+          echo "GITEE_TOKEN is present"
 
       - name: Sync upstream channels and merge overrides
         run: python3 scripts/sync_channels.py
@@ -88,10 +100,6 @@ jobs:
         env:
           GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
         run: |
-          if [ -z "${GITEE_TOKEN}" ]; then
-            echo "::error::secret GITEE_TOKEN is not configured"
-            exit 1
-          fi
           echo "::add-mask::${GITEE_TOKEN}"
           git remote set-url origin "https://oauth2:${GITEE_TOKEN}@gitee.com/${GITEE_SLUG}.git"
           git push origin HEAD:main 2>&1 | sed -E "s#//[^@]*@#//***@#g"
