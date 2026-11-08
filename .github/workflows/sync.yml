@@ -1,0 +1,108 @@
+name: sync-channels
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Force push even when nothing changed"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-channels
+  cancel-in-progress: false
+
+env:
+  GITEE_REPO: ${{ vars.GITEE_REPO || 'https://gitee.com/tekintian/sublime_text-channels.git' }}
+  TZ: Asia/Shanghai
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout mirror repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolve target repository
+        run: |
+          repo="${GITEE_REPO}"
+          repo="${repo#https://}"
+          repo="${repo#http://}"
+          repo="${repo#*@}"
+          repo="${repo#gitee.com/}"
+          repo="${repo#gitee.com:}"
+          repo="${repo%.git}"
+          repo="${repo%/}"
+          echo "GITEE_SLUG=${repo}" >> "$GITHUB_ENV"
+          echo "target https://gitee.com/${repo}.git"
+
+      - name: Sync upstream channels and merge overrides
+        run: python3 scripts/sync_channels.py
+
+      - name: Verify generated channels
+        run: |
+          python3 - <<'EOF'
+          import json
+          for name in ("channel_v3.json", "channel_v4.json"):
+              with open(name, encoding="utf-8") as fh:
+                  data = json.load(fh)
+              assert data["repositories"], f"{name}: repositories is empty"
+              assert data["schema_version"], f"{name}: schema_version missing"
+              entries = sum(len(v) for k, v in data.items() if k.endswith("_cache") for v in v.values())
+              print(f"{name}: {entries} entries, {len(data['repositories'])} repositories")
+          assert sum(
+              len(v) for v in json.load(open("channel_v3.json", encoding="utf-8"))["packages_cache"].values()
+          ) > 5000, "channel_v3.json looks truncated"
+          print("verify OK")
+          EOF
+
+      - name: Commit generated channels
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add channel_v3.json channel_v4.json upstream
+          if git diff --cached --quiet; then
+            echo "no changes, nothing to commit"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore: sync upstream channels $(date -u +%Y-%m-%d)"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push to gitee
+        if: steps.commit.outputs.changed == 'true' || inputs.force
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: |
+          if [ -z "${GITEE_TOKEN}" ]; then
+            echo "::error::secret GITEE_TOKEN is not configured"
+            exit 1
+          fi
+          echo "::add-mask::${GITEE_TOKEN}"
+          git remote set-url origin "https://oauth2:${GITEE_TOKEN}@gitee.com/${GITEE_SLUG}.git"
+          git push origin HEAD:main 2>&1 | sed -E "s#//[^@]*@#//***@#g"
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "### channel mirror sync"
+            echo "- upstream v3: https://packagecontrol.io/channel_v3.json"
+            echo "- upstream v4: https://packagecontrol.github.io/channel/channel_v4.json"
+            echo "- target: https://gitee.com/${GITEE_SLUG}.git"
+            echo "- changed: ${{ steps.commit.outputs.changed }}"
+          } >> "$GITHUB_STEP_SUMMARY"
